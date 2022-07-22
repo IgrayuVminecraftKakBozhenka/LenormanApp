@@ -8,6 +8,7 @@ import androidx.compose.material.Card
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -18,11 +19,14 @@ fun DisabledCardItem(
     cardOffset: Dp,
     onClick: (Int) -> Unit
 ) {
+    val screenWidth = LocalConfiguration.current.screenWidthDp
+    val cardWidth = (screenWidth.dp.value / 2).dp
+    val cardHeight = (cardWidth.value * 1.5).dp
     Card(
         modifier = Modifier
             .padding(16.dp)
-            .width(200.dp)
-            .height(300.dp)
+            .width(cardWidth)
+            .height(cardHeight)
             .offset(x = cardOffset),
         shape = RoundedCornerShape(10.dp),
     ) {

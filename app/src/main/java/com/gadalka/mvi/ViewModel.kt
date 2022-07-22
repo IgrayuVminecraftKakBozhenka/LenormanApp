@@ -216,12 +216,11 @@ class ViewModel(
     }
 
     private fun cardDescriptionClick(id: Int) {
-        val description = cards.find { it.id == id }?.description ?: return
-        _state.value = _state.value.copy(actualCardDescription = description, bottomSheetShown = true)
+        _state.value = _state.value.copy(actualCardId = id, bottomSheetShown = true)
     }
 
     private fun clearDescription() {
-        _state.value = _state.value.copy(actualCardDescription = "", bottomSheetShown = false)
+        _state.value = _state.value.copy(actualCardId = -1, bottomSheetShown = false)
     }
 
     private fun findCard(id: Int): CardModel = _state.value.allCards.find {

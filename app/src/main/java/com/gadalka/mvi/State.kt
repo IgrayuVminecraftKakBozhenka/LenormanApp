@@ -8,6 +8,6 @@ data class State(
     val thirdCard: CardModel = CardModel(),
     val offset: Int = 0,
     val allCards: ArrayList<CardModel> = arrayListOf(),
-    val actualCardDescription: String = "",
+    val actualCardId: Int = -1,
     val bottomSheetShown: Boolean = false,
 )

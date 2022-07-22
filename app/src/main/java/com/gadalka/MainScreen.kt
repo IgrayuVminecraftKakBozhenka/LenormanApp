@@ -3,6 +3,7 @@ package com.gadalka
 import android.annotation.SuppressLint
 import android.util.Log
 import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -11,15 +12,15 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.gadalka.mvi.Intent
 import com.gadalka.mvi.State
-import com.gadalka.ui.theme.DescriptionBottomSheet
+import com.gadalka.ui.theme.*
 import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.insets.navigationBarsWithImePadding
 import com.google.accompanist.insets.statusBarsPadding
@@ -33,7 +34,7 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
     val cardWidth = 200.dp
     val cardOffset = animateDpAsState(cardWidth * state.offset)
     val bottomSheetState =
-        rememberModalBottomSheetState(getBottomState(state.actualCardDescription)) { value ->
+        rememberModalBottomSheetState(ModalBottomSheetValue.Hidden) { value ->
             if (value == ModalBottomSheetValue.Hidden) {
                 performIntent(Intent.ClearDescriptions)
             }
@@ -69,15 +70,17 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
         ModalBottomSheetLayout(
             modifier = Modifier
                 .statusBarsPadding()
-                .navigationBarsWithImePadding(),
-            sheetContent = { DescriptionBottomSheet(description = state.actualCardDescription) },
+                .navigationBarsWithImePadding()
+                .background(base),
+            sheetContent = { DescriptionBottomSheet(state.actualCardId) },
             sheetState = bottomSheetState,
             sheetShape = RoundedCornerShape(10.dp)
         ) {
             Column {
                 Card(
                     shape = RoundedCornerShape(0.dp),
-                    elevation = 10.dp
+                    elevation = 10.dp,
+                    backgroundColor = surface
                 ){
                     Row(
                         modifier = Modifier
@@ -132,6 +135,10 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
                     Text(
                         text = "Перемешать",
                         fontSize = 18.sp,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                        color = white,
+                        modifier = Modifier.padding(start = 16.dp, end = 16.dp)
                     )
                 }
             }
@@ -140,8 +147,8 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
 }
 
 @ExperimentalMaterialApi
-fun getBottomState(description: String): ModalBottomSheetValue {
-    return if (description.isNotBlank()) {
+fun getBottomState(id: Int): ModalBottomSheetValue {
+    return if (id != -1) {
         ModalBottomSheetValue.Expanded
     } else {
         ModalBottomSheetValue.Hidden
