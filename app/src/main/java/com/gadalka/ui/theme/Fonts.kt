@@ -6,4 +6,4 @@ import com.gadalka.R
 
 val RobotoRegular = FontFamily(Font(R.font.roboto_regular))
 val RobotoMedium = FontFamily(Font(R.font.roboto_medium))
-val RobotoRBold = FontFamily(Font(R.font.roboto_bold))
+val RobotoBold = FontFamily(Font(R.font.roboto_bold))
