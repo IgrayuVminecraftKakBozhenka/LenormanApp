@@ -138,6 +138,7 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
                         color = white,
+                        fontFamily = RobotoMedium,
                         modifier = Modifier.padding(start = 16.dp, end = 16.dp)
                     )
                 }
