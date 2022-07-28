@@ -171,6 +171,7 @@ class ViewModel(
             Intent.ShuffleCards -> shuffleCards()
             is Intent.CardDescriptionClick -> cardDescriptionClick(intent.id)
             Intent.ClearDescriptions -> clearDescription()
+            is Intent.ShowInfo -> _state.value = _state.value.copy(isShowInfo = intent.isShow, bottomSheetShown = intent.isShow)
         }
     }
 
@@ -220,7 +221,7 @@ class ViewModel(
     }
 
     private fun clearDescription() {
-        _state.value = _state.value.copy(actualCardId = -1, bottomSheetShown = false)
+        _state.value = _state.value.copy(actualCardId = -1, bottomSheetShown = false, isShowInfo = false)
     }
 
     private fun findCard(id: Int): CardModel = _state.value.allCards.find {

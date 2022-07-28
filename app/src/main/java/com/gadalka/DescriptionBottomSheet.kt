@@ -2,12 +2,8 @@ package com.gadalka
 
 import androidx.compose.animation.animateColor
 import androidx.compose.animation.core.*
-import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.Canvas
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
+import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material.Text
@@ -54,6 +50,8 @@ fun DescriptionBottomSheet(
             repeatMode = RepeatMode.Reverse
         )
     )
+
+    val scrollState = rememberScrollState()
 
     Column(
         modifier = Modifier
@@ -105,41 +103,40 @@ fun DescriptionBottomSheet(
                 )
             }
         }
-        LazyColumn {
-            item {
-                Box(modifier = Modifier.fillMaxWidth()) {
-                    Card(
-                        modifier = Modifier
-                            .padding(start = 16.dp, end = 16.dp, top = 16.dp)
-                            .width(cardWidth)
-                            .height(cardHeight)
-                            .align(Alignment.Center),
-                        elevation = 10.dp,
-                        shape = RoundedCornerShape(10.dp),
-                        border = BorderStroke(1.dp, Brush.horizontalGradient(colors = listOf(color, color2)))
-                    ) {
-                        Image(
-                            painter = getImage(id = id),
-                            contentDescription = null,
-                            contentScale = ContentScale.Crop,
-                            modifier = Modifier.fillMaxSize()
-                        )
-                    }
+        Column(modifier = Modifier.verticalScroll(scrollState)) {
+            Box(modifier = Modifier.fillMaxWidth()) {
+                Card(
+                    modifier = Modifier
+                        .padding(start = 16.dp, end = 16.dp, top = 16.dp)
+                        .width(cardWidth)
+                        .height(cardHeight)
+                        .align(Alignment.Center),
+                    elevation = 10.dp,
+                    shape = RoundedCornerShape(10.dp),
+                    border = BorderStroke(
+                        1.dp,
+                        Brush.horizontalGradient(colors = listOf(color, color2))
+                    )
+                ) {
+                    Image(
+                        painter = getImage(id = id),
+                        contentDescription = null,
+                        contentScale = ContentScale.Crop,
+                        modifier = Modifier.fillMaxSize()
+                    )
                 }
             }
 
-            item {
-                Text(
-                    text = getDescription(id = id),
-                    fontSize = 16.sp,
-                    overflow = TextOverflow.Ellipsis,
-                    fontFamily = RobotoRegular,
-                    color = white,
-                    modifier = Modifier
-                        .padding(16.dp)
-                        .fillMaxWidth()
-                )
-            }
+            Text(
+                text = getDescription(id = id),
+                fontSize = 16.sp,
+                overflow = TextOverflow.Ellipsis,
+                fontFamily = RobotoRegular,
+                color = white,
+                modifier = Modifier
+                    .padding(16.dp)
+                    .fillMaxWidth()
+            )
         }
     }
 }

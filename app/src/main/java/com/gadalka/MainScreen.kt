@@ -50,26 +50,12 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
     val bottomSheetState =
         rememberModalBottomSheetState(ModalBottomSheetValue.Hidden) { value ->
             if (value == ModalBottomSheetValue.Hidden) {
-                performIntent(Intent.ClearDescriptions)
+                    performIntent(Intent.ClearDescriptions)
             }
             true
         }
 
     val lazyState = rememberLazyListState()
-    val scope = rememberCoroutineScope()
-
-
-    with(lazyState) {
-        Log.d("SCROLLING", firstVisibleItemIndex.toString())
-        if (firstVisibleItemIndex == 34) {
-            scope.launch {
-                Log.d("SCROLLING", "LAUNCHED")
-                animateScrollToItem(0)
-                Log.d("SCROLLING", "SCROLLED")
-            }
-        }
-    }
-
 
     LaunchedEffect(key1 = state.bottomSheetShown, block = {
         if (state.bottomSheetShown) {
@@ -92,7 +78,14 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
                 .statusBarsPadding()
                 .navigationBarsWithImePadding()
                 .background(base),
-            sheetContent = { DescriptionBottomSheet(state.actualCardId) },
+            sheetContent = {
+                if (state.isShowInfo) {
+                    InfoBottomSheet()
+                } else {
+                    DescriptionBottomSheet(state.actualCardId)
+                }
+
+                           },
             sheetState = bottomSheetState,
             sheetShape = RoundedCornerShape(16.dp)
         ) {
@@ -129,7 +122,7 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
                             .weight(0.2f)
                             .wrapContentWidth(Alignment.End)
                             .padding(start = 16.dp, end = 16.dp)
-                            .clickable { }
+                            .clickable { performIntent(Intent.ShowInfo(true)) }
                     )
                 }
                 Card(
@@ -161,8 +154,6 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
                         )
                     }
                 }
-
-                // Divider(modifier = Modifier.fillMaxWidth())
 
                 LazyRow(
                     modifier = Modifier.padding(top = 16.dp),

@@ -5,4 +5,5 @@ sealed class Intent {
     class CardDescriptionClick(val id: Int) : Intent()
     object ShuffleCards : Intent()
     object ClearDescriptions : Intent()
+    class ShowInfo(val isShow: Boolean) : Intent()
 }

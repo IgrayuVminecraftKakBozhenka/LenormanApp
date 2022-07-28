@@ -10,4 +10,5 @@ data class State(
     val allCards: ArrayList<CardModel> = arrayListOf(),
     val actualCardId: Int = -1,
     val bottomSheetShown: Boolean = false,
+    val isShowInfo: Boolean = false
 )
