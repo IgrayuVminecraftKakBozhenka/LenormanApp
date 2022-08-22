@@ -1,10 +1,19 @@
 package com.gadalka
 
 import android.annotation.SuppressLint
-import android.content.Context.SENSOR_SERVICE
+import android.content.Context
+import android.content.Context.VIBRATOR_SERVICE
+import android.hardware.Sensor
+import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
 import android.hardware.SensorManager
+import android.os.Build
+import android.os.VibrationEffect
+import android.os.Vibrator
+import android.os.VibratorManager
 import android.util.Log
 import androidx.activity.compose.BackHandler
+import androidx.annotation.RequiresApi
 import androidx.compose.animation.Crossfade
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.Image
@@ -19,11 +28,9 @@ import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
@@ -31,15 +38,14 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.core.content.ContextCompat.getSystemService
 import com.gadalka.mvi.Intent
 import com.gadalka.mvi.State
 import com.gadalka.ui.theme.*
 import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.insets.navigationBarsWithImePadding
 import com.google.accompanist.insets.statusBarsPadding
-import kotlinx.coroutines.launch
 
+@RequiresApi(Build.VERSION_CODES.S)
 @SuppressLint("CoroutineCreationDuringComposition")
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
@@ -50,12 +56,51 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
     val bottomSheetState =
         rememberModalBottomSheetState(ModalBottomSheetValue.Hidden) { value ->
             if (value == ModalBottomSheetValue.Hidden) {
-                    performIntent(Intent.ClearDescriptions)
+                performIntent(Intent.ClearDescriptions)
             }
             true
         }
 
     val lazyState = rememberLazyListState()
+
+    val context = LocalView.current.context
+
+    val vibrator = remember {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                val vibratorManager =
+                    context.getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager
+                vibratorManager.defaultVibrator
+            } else {
+                @Suppress("DEPRECATION")
+                context.getSystemService(VIBRATOR_SERVICE) as Vibrator
+            }
+        }
+
+    val sensorManager = remember {(context.getSystemService(Context.SENSOR_SERVICE) as SensorManager)}
+    val accelerometer = remember { sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER) }
+    val listener = remember {
+        object : SensorEventListener {
+            override fun onSensorChanged(p0: SensorEvent?) {
+               // Log.d("ACCELEROMETER_VALUES", "${p0?.values?.get(0)} ${p0?.values?.get(1)} ${p0?.values?.get(2)}")
+                performIntent(Intent.AccelerometerData(p0?.values ?: FloatArray(0)))
+            }
+
+            override fun onAccuracyChanged(p0: Sensor?, p1: Int) {
+               // TODO("Not yet implemented")
+            }
+
+        }
+    }
+    sensorManager.registerListener(
+        listener,  accelerometer, 1
+    )
+
+    LaunchedEffect(key1 = state.isVibrate) {
+        if (state.isVibrate) {
+            vibrator.vibrate(VibrationEffect.createOneShot(300L, 1))
+            performIntent(Intent.TurnOffVibrate)
+        }
+    }
 
     LaunchedEffect(key1 = state.bottomSheetShown, block = {
         if (state.bottomSheetShown) {
@@ -85,7 +130,7 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
                     DescriptionBottomSheet(state.actualCardId)
                 }
 
-                           },
+            },
             sheetState = bottomSheetState,
             sheetShape = RoundedCornerShape(16.dp)
         ) {
@@ -170,7 +215,9 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
                 }
 
                 Button(
-                    onClick = { performIntent(Intent.ShuffleCards) },
+                    onClick = {
+                        performIntent(Intent.ShuffleCards)
+                    },
                     shape = RoundedCornerShape(10.dp),
                     modifier = Modifier
                         .padding(16.dp)

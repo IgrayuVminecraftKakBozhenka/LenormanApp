@@ -1,834 +1,840 @@
 <resources>
     <string name="app_name">Gadalka</string>
-    <string name="card_description">Описание карты</string>
-    <string name="one_horseman">Всадник</string>
-    <string name="two_clever">Клевер</string>
-    <string name="three_ship">Корабль</string>
-    <string name="four_house">Дом</string>
-    <string name="five_tree">Дерево</string>
-    <string name="six_clouds">Тучи</string>
-    <string name="seven_snake">Змея</string>
-    <string name="eight_coffin">Гроб</string>
-    <string name="nine_flowers">Букет</string>
-    <string name="ten_sycthe">Коса</string>
-    <string name="eleven_broom">Метла</string>
-    <string name="twelve_owls">Совы</string>
-    <string name="threeteen_child">Ребёнок</string>
-    <string name="fourteen_fox">Лиса</string>
-    <string name="fiveteen_bear">Медведь</string>
-    <string name="sixteen_stars">Звезды</string>
-    <string name="seventeen_stork">Аист</string>
-    <string name="eighteen_dog">Собака</string>
-    <string name="nineteen_tower">Башня</string>
-    <string name="twenty_garden">Сад</string>
-    <string name="twentyone_mountain">Гора</string>
-    <string name="twentytwo_road">Развилка</string>
-    <string name="twentythree_rats">Крысы</string>
-    <string name="twentyfour_heart">Сердце</string>
-    <string name="twentyfive_ring">Кольцо</string>
-    <string name="twentysix_book">Книга</string>
-    <string name="twentyseven_letter">Письмо</string>
-    <string name="twentyeight_man">Мужик</string>
-    <string name="twentynine_woman">Женщина</string>
-    <string name="thirty_lilies">Лилии</string>
-    <string name="thirtyone_sun">Солнце</string>
-    <string name="thirtytwo_moon">Луна</string>
-    <string name="thirtythree_key">Ключ</string>
-    <string name="thirtyfour_fish">Рыбы</string>
-    <string name="thirtyfive_anchor">Якорь</string>
-    <string name="thirtysix_cross">Крест</string>
+    <string name="card_description">Card description</string>
+    <string name="one_horseman">Horseman</string>
+    <string name="two_clever">Clover</string>
+    <string name="three_ship">Ship</string>
+    <string name="four_house">House</string>
+    <string name="five_tree">Tree</string>
+    <string name="six_clouds">Clouds</string>
+    <string name="seven_snake">Snake</string>
+    <string name="eight_coffin">Coffin</string>
+    <string name="nine_flowers">Bouquet</string>
+    <string name="ten_sycthe">Scythe</string>
+    <string name="eleven_broom">Broom</string>
+    <string name="twelve_owls">Owls</string>
+    <string name="threeteen_child">Child</string>
+    <string name="fourteen_fox">Fox</string>
+    <string name="fiveteen_bear">Bear</string>
+    <string name="sixteen_stars">Stars</string>
+    <string name="seventeen_stork">Stork</string>
+    <string name="eighteen_dog">Dog</string>
+    <string name="nineteen_tower">Tower</string>
+    <string name="twenty_garden">Garden</string>
+    <string name="twentyone_mountain">Mountain</string>
+    <string name="twentytwo_road">Fork</string>
+    <string name="twentythree_rats">Rats</string>
+    <string name="twentyfour_heart">Heart</string>
+    <string name="twentyfive_ring">Ring</string>
+    <string name="twentysix_book">Book</string>
+    <string name="twentyseven_letter">Letter</string>
+    <string name="twentyeight_man">Man</string>
+    <string name="twentynine_woman">Woman</string>
+    <string name="thirty_lilies">Lilies</string>
+    <string name="thirtyone_sun">Sun</string>
+    <string name="thirtytwo_moon">Moon</string>
+    <string name="thirtythree_key">Key</string>
+    <string name="thirtyfour_fish">Fish</string>
+    <string name="thirtyfive_anchor">Anchor</string>
+    <string name="thirtysix_cross">Cross</string>
 
 
-    <string name="description_one_horseman"> Карта говорит о грядущих хороших новостях. Также может предвещать сообщение,
-        которое можно получить в любом виде: электронная почта, звонок, бумажное письмо. Новость может быть как положительной,
-        так и отрицательной. Об этом должна рассказать карта, которая лежит по соседству.
-        Если карта ВСАДНИК выпала с хорошими картами, то это всегда предвещает хорошее будущее. Будут новые перспективы, все будет получаться.
-        Карта может также предвещать новые и скорые начинания. От вас потребуются решительные
-        действия, которые могут привести к успеху, а вот если не проявить инициативу, то многое можно потерять. \n\n
+    <string name="description_one_horseman"> The card speaks of good news to come. It can also portend a message,
+        which can be received in any form: e-mail, call, paper letter. The news can be both positive,
+        as well as negative. This should be told by the card that lies next door.
+        If the RIDER card fell out with good cards, then this always portends a good future. There will be new perspectives, everything will work out.
+        The card can also portend new and imminent undertakings. You will need decisive
+        actions that can lead to success, but if you do not take the initiative, then much can be lost. \n\n
 
-        Личность. Посыльный, почтальон, курьер, свидетель, посредник, перспективный и приятный молодой человек, покупатель. \n\n
-        Любовь. Организатор свадебных мероприятий, сводник, флирт, в жизни появится новое и интересное увлечение. \n\n
-        Работа. Работа с общественностью, получение обратной связи и деловой документации. \n\n
-        Финансы. Управление активами с помощью агентов, доверительное управление финансами. \n\n
-        Благополучие. Занятия фитнесом, спортом, легкое и быстрое выздоровление, хорошее здоровье, развитое мышление. \n\n
-        Взаимоотношения. Зависит от соседних карт. Либо сообщение, либо события начнут быстро развиваться. \n\n
-        Деловые вопросы. Получение важной информации, которая относится к бизнесу. Переговоры, командировки, контакты
-        с новыми партнерами, визитер от государственных учреждений. \n\n
-        Здоровье. Самочувствие удовлетворительное, возможны респираторные и простудные заболевания,
-        следите за иммунитетом. Карта ВСАДНИК отвечает за голову, мозг и за системы организма: кровеносную, нервную, пищеварительную.\n\n
+        Personality. Messenger, postman, courier, witness, intermediary, promising and pleasant young man, buyer. \n\n
+        Love. The organizer of wedding events, pimp, flirting, a new and interesting hobby will appear in life. \n\n
+        Job. Work with the public, obtaining feedback and business documentation. \n\n
+        Finance. Asset management with the help of agents, trust management of finances. \n\n
+        well-being. Fitness, sports, easy and quick recovery, good health, developed thinking. \n\n
+        Relationships. Depends on neighboring cards. Either the message or the events will begin to develop rapidly. \n\n
+        business questions. Obtaining important information that is relevant to the business. Negotiations, business trips, contacts
+        with new partners, visitor from government agencies. \n\n
+        Health. Feeling satisfactory, possible respiratory and colds,
+        watch your immunity. The RIDER card is responsible for the head, brain and body systems: circulatory, nervous, digestive.\n\n
     </string>
-    <string name="description_two_clever">Карта Ленорман КЛЕВЕР символизирует надежду, удачное стечение обстоятельств,
-        кратковременное везение. Также может предвещать легкую жизнь без хлопот и забот, но она будет носить временный
-        характер. Также может предвещать риск, либо говорить о том, что необходимо рисковать для того, что бы достичь
-        значимого результата.
-        Если карта КЛЕВЕР выпадает в самом начале ряда, то она говорит о скорой удачной возможности, которой нужно постараться
-        воспользоваться. В целом, почти во всех ситуациях, карта КЛЕВЕР указывает на внезапность, неожиданность,
-        короткое время события, поэтому нужно быть очень внимательным и не упустить шансы, которые обязательно появятся.
-        Рядом с неблагоприятными картами может предвещать убытки, сильные разочарования и невзгоды, крушение планов,
-        которые казались очень надежными. Может предвещать начало «черной полосы», впрочем, обычно такой плохой период не будет очень продолжительным.
-        У вас появиться чувство уверенности в собственных
-        силах, все новые дела будут получаться хорошо и легко. Может намекать на то, что нужно избегать одиночества
-        и как можно больше контактировать с людьми. Это может принести большую пользу и изменить вашу жизнь к лучшему.\n\n
+    <string name="description_two_clever">The Lenormand CLOVER card symbolizes hope, good luck,
+        short term luck. It can also portend an easy life without the hassle and worries, but she will wear a temporary
+        character. It can also portend a risk, or say that it is necessary to take risks in order to achieve
+        significant result.
+        If the CLOVER card falls out at the very beginning of the row, then it speaks of an imminent good opportunity that you need to try
+        take advantage. In general, in almost all situations, the CLOVER card indicates suddenness, surprise,
+        short time of the event, so you need to be very careful and not miss the chances that will definitely appear.
+        Next to unfavorable cards, it can portend losses, severe disappointments and hardships, the collapse of plans,
+        which seemed to be very reliable. It may portend the beginning of a "black streak", however, usually such a bad period will not be very long.
+        You will have a sense of confidence in your own
+        forces, all new things will turn out well and easily. May hint at avoiding loneliness
+        and connect with people as much as possible. It can be of great benefit and change your life for the better.\n\n
 
-        Личность. Азартный, использует малейший шанс, не боится рисковать, импровизатор, каскадер, мошенник, не имеет твердых убеждений. \n\n
-        Любовь. Случайный поцелуй, отношения с несколькими партнерами, любовь на одну ночь, кратковременная страсть.\n\n
-        Работа. Хорошие и приятные условия труда, отпуск, возможность заработать дополнительные деньги.\n\n
-        Финансы. Сделка может быть рискованной, необходимый риск, внимание к бухгалтерии.\n\n
-        Благополучие. Возможность для удачного зачатия, ощущение комфорта, изобилие.\n\n
-        Взаимоотношения. Появится благоприятная возможность перейти на следующий этап отношений, взаимопонимание и доверие.\n\n
-        Деловые вопросы. Прибыль для тех, кто занимается сельским хозяйством, будет шанс получить небольшую прибыль, но нужно будет приложить определенные усилия.\n\n
-        Здоровье. Нужно обратиться к физиотерапевту, текущая болезнь перейдет в более легкую форму.\n\n
+        Personality. Gambling, uses the slightest chance, not afraid to take risks, improviser, stuntman, swindler, has no firm convictions. \n\n
+        Love. Casual kiss, multi-partner relationships, one-night stands, short-term infatuation.\n\n
+        Job. Good and pleasant working conditions, holidays, the opportunity to earn extra money.\n\n
+        Finance. The deal can be risky, necessary risk, attention to bookkeeping.\n\n
+        well-being. Opportunity for successful conception, feeling of comfort, abundance.\n\n
+        Relationships. There will be a favorable opportunity to move to the next stage of the relationship, mutual understanding and trust.\n\n
+        business questions. Profit For those who are engaged in agriculture, there will be a chance to make a small profit, but some effort will be required.\n\n
+        Health. You need to see a physiotherapist, the current illness will go into a milder form.\n\n
 
     </string>
     <string name="description_three_ship">
-        Карта Ленорман КОРАБЛЬ зачастую говорит нам о появлении хороших перспектив, новых планов. В делах
-        можно ожидать успеха. Также можно предвещать путешествие или дальнюю поездку, которые пройдут удачно.
-        КОРАБЛЬ символизирует и грядущие изменения в жизни. Они могут быть разного характера, но точно повлияют
-        на вашу жизнь. Корабль может плыть против течения. А
-        это символизирует инициативу, нарушение равновесия и в целом движение вопреки чему-то.
-        Может означать надежду на улучшение ситуации, в крайнем случае, у вас появится хотя бы возможность ее
-        изменить, а воспользуетесь вы ей или нет – зависит только от вас. Карта КОРАБЛЬ говорит собственно
-        о путешествиях, поездках, экскурсиях и вообще символизировать большие расстояния, которые никак не
-        пройти пешком. В плане психологии карта КОРАБЛЬ обычно сообщает о стремлении к развитию, человек
-        может очень хотеть изменений в своей жизни.
-        В целом карта является благоприятной, однако сочетание с негативными картами может предвещать приближающиеся проблемы и неудачи.\n\n
+        The Lenormand SHIP card often tells us about the appearance of good prospects, new plans. in business
+        success can be expected. You can also portend a trip or a long trip that will go well.
+        The SHIP also symbolizes the coming changes in life. They may be of a different nature, but they will definitely affect
+        for your life. The ship can sail against the current. BUT
+        it symbolizes initiative, imbalance, and generally moving against something.
+        May mean hope for an improvement in the situation, in extreme cases, you will at least have the opportunity to
+        change, and whether you use it or not is up to you. The SHIP card speaks properly
+        about travel, trips, excursions and generally symbolize long distances that cannot be
+        go on foot. In terms of psychology, the SHIP card usually indicates a desire for development, a person
+        You may want to make changes in your life.
+        In general, the card is favorable, however, a combination with negative cards may portend impending problems and failures.\n\n
 
-        Личность. Торговец, иммигрант, моряк, торговый представитель, переводчик, работает в турфирме, путешественник, на отдыхе, экспортер.\n\n
-        Любовь. Любовник, роман в путешествии, любовь может вызвать чувство тоски.\n\n
-        Работа. Деятельность, связанная с разъездами, зарубежные партнеры.\n\n
-        Финансы. Морские грузоперевозки, сделки с иностранными компаниями, экспорт, импорт, финансовые переводы.\n\n
-        Благополучие. Привычный ритм жизни может быть нарушен, разъезды, жизнь на чемоданах.\n\n
-        Взаимоотношения. Изменения в благоприятную сторону. Возможно ни к чему не обязывающее короткое, но приятное знакомство.\n\n
-        Деловые вопросы. Получение прибыли в сфере торговли, деловые связи принесут пользу, особенно если партнеры географически находятся очень далеко. Деловые поездки, как ближние, так и дальние. Негоцианство.\n\n
-        Здоровье. Карта КОРАБЛЬ означает кровеносную систему. Без благоприятных карт говорит об изменении текущего состояния здоровья в лучшую сторону. С неблагоприятными может указывать даже на смерть.\n\n
+        Personality. Merchant, Immigrant, Sailor, Sales Representative, Translator, Travel Agent, Traveler, Vacationer, Exporter.\n\n
+        Love. Lover, travel romance, love can make you feel longing.\n\n
+        Job. Travel related activities, foreign partners.\n\n
+        Finance. Sea freight, transactions with foreign companies, export, import, financial transfers.\n\n
+        well-being. The usual rhythm of life can be disturbed, traveling, life on suitcases.\n\n
+        Relationships. Changes for the better. Perhaps a non-binding short but pleasant acquaintance.\n\n
+        business questions. Making a profit in the field of trade, business ties will be beneficial, especially if the partners are geographically very far away. Business trips, both near and far. Negocianism.\n\n
+        Health. The SHIP card means the circulatory system. Without favorable cards, it speaks of a change in the current state of health for the better. With unfavorable ones, it can even indicate death.\n\n
 
 
     </string>
     <string name="description_four_house">
-        Карта Ленорман ДОМ обычно символизирует безопасность, защищенность, а так же то, что важно для
-        каждого человека: семья и близкие люди, бизнес, место проживания (это может быть даже дачный участок).
-        Карта ДОМ положительная, она смягчит плохие карты, скажет об удаче в предстоящих делах и сообщит
-        о благополучном для вас завершении текущих дел.
-        С точки зрения психологии, карта ДОМ говорит о моральной устойчивости, мужестве и уверенности в
-        собственных силах. Человек чувствует себя как дома даже в незнакомых местах и при неблагоприятных ситуациях.
-        Если карта выпала в позицию прошлого, то это говорит о том, что родители имеют на вас большое влияние,
-        а также о том, что традиции, которые приняты в вашей семье, для вас не являются пустым местом.
-        Карта ДОМ также собственно говорит о месте проживания, это может быть квартира, коттедж, гостиница,
-        дачный домик, даже палатка. Помимо этого карта символизирует собственно место, где вы живете: улица, город или даже район.
-        Карты, которые выпадают рядом, всегда будут иметь отношение к вашему дому или к семье. Сама по себе
-        карта ДОМ благоприятная, но если выпадает сочетание с негативными картами, то это сулит проблемы там,
-        где их меньше всего хочется иметь: в семье или в доме.\n\n
+        The Lenormand DOM card usually symbolizes safety, security, as well as what is important for
+        each person: family and close people, business, place of residence (it can even be a summer cottage).
+        The HOUSE card is positive, it will soften bad cards, speak of good luck in upcoming affairs and inform
+        about the successful completion of current affairs for you.
+        From the point of view of psychology, the HOUSE card speaks of moral stability, courage and confidence in
+        own strength. A person feels at home even in unfamiliar places and in adverse situations.
+        If the card fell into the position of the past, then this indicates that your parents have a great influence on you,
+        and also that the traditions that are accepted in your family are not an empty place for you.
+        The HOUSE card also actually speaks of the place of residence, it can be an apartment, a cottage, a hotel,
+        country house, even a tent. In addition, the map symbolizes the actual place where you live: a street, a city, or even a district.
+        The cards that fall next will always be related to your home or family. By her own
+        the HOUSE card is favorable, but if a combination with negative cards falls out, then this promises problems there,
+        where you least want to have them: in the family or at home.\n\n
 
-        Личность. Любит быть дома, владелец земли, риэлтер, собственник недвижимости, близкие родственники, архитектор, дизайнер интерьера.\n\n
-        Любовь. Хорошие соседи, ровные отношения в семье, все стабильно и без потрясений.\n\n
-        Работа. Малый бизнес, производство кустарной продукции, самозанятость и работа на дому в целом.\n\n
-        Финансы. Бюджет семьи, бизнес на дому, небольшие деньги на повседневные расходы, ипотечное кредитование, покупка, продажа или аренда недвижимости.\n\n
-        Благополучие. Постельный режим, возможен карантин, символизирует наследственные и хронические заболевания. С другой стороны – в родном доме и стены лечат, хорошие и благоприятные условия для выздоровления.\n\n
-        Взаимоотношения. Влияние родителей на поведение в отношениях (все так, как было у отца или матери), желание создать семью, традиционные отношения, постоянные и надежные.\n\n
-        Деловые вопросы. Дела, связанные с недвижимостью. В целом в деловых вопросах можно надеяться на стабильность, карта ДОМ здесь не предвещает изменений ни в какую сторону.\n\n
-        Здоровье. Традиционные методы лечения будут успешны. В общем, карта ДОМ символизирует все тело человека, как дом для его души.\n\n
+        Personality. Likes to be at home, land owner, realtor, property owner, close family, architect, interior designer.\n\n
+        Love. Good neighbors, even relations in the family, everything is stable and without shocks.\n\n
+        Job. Small business, artisanal production, self-employment and work from home in general.\n\n
+        Finance. Family budget, home business, little money for daily expenses, mortgage lending, buying, selling or renting real estate.\n\n
+        well-being. Bed rest, quarantine is possible, symbolizes hereditary and chronic diseases. On the other hand, in ones own home, the walls are treated, and there are good and favorable conditions for recovery.\n\n
+        Relationships. The influence of parents on behavior in a relationship (everything is the same as that of a father or mother), the desire to create a family, traditional relationships, permanent and reliable.\n\n
+        business questions. Cases related to real estate. In general, in business matters, one can hope for stability, the HOUSE card here does not portend changes in any direction.\n\n
+        Health. Traditional treatments will be successful. In general, the HOUSE card symbolizes the whole body of a person as a home for his soul.\n\n
     </string>
     <string name="description_five_tree">
-        На карте Ленорман ДЕРЕВО изображено старое дерево, которое символизирует мудрость, устойчивость,
-        твердость и здоровье. Дерево, которое пустило корни глубоко в землю, ничто не сможет сдвинуть его с места.
-        Значение карты ДЕРЕВО во многом зависит от сочетания с другими картами и от положения.
-        Если в позиции прошлого, то это говорит о том, что спрашивающий уже осознал свое место в мире, он твердо
-        стоит на ногах и его будущее для него предельно ясно. В сочетании с негативными картами является
-        прямым указанием подумать о состоянии своего здоровья, возможно, нужно пойти к врачу и пройти
-        внеплановое обследование. Либо вам просто необходим отдых, так как в последнее время вы очень
-        сильно уставали и истощились как физически, так и духовно.
-        Главное значение карты ДЕРЕВО – жизнь. Она развивается неуклонно, пусть иногда и медленно.
-        Но любое равновесие может быть нарушено внешними факторами, дерево можно сломать, его может
-        снести ураган, высушить засуха, поджечь молния. Такова и наша жизнь. Как бы нам не хотелось,
-        но не все зависит от нас. Для толкования основное значение имеет позиция карты ДЕРЕВО, влияние оказывают и соседние карты.\n\n
+        The Lenormand TREE card depicts an old tree that symbolizes wisdom, stability,
+        firmness and health. A tree that has taken root deep into the earth, nothing can move it.
+        The value of the WOOD card largely depends on the combination with other cards and on the position.
+        If in the position of the past, then this indicates that the questioner has already realized his place in the world, he firmly
+        stands on his feet and his future is very clear to him. Combined with negative cards is
+        a direct order to think about the state of your health, you may need to go to the doctor and get
+        unscheduled examination. Or you just need a rest, because lately you have been very
+        were very tired and exhausted both physically and spiritually.
+        The main meaning of the WOOD card is life. It develops steadily, albeit sometimes slowly.
+        But any balance can be disturbed by external factors, a tree can be broken, it can
+        demolish the hurricane, dry the drought, ignite the lightning. Such is our life. As much as we dont want to
+        but not everything depends on us. For interpretation, the position of the WOOD card is of primary importance, and neighboring cards also have an influence.\n\n
 
-        Личность. Работающий в лесу или с древесиной, садовник, тренер, консультант по медицинским вопросам, родители.\n\n
-        Любовь. Приятные отношения, развиваются в положительную сторону. Крепкая любовь, которая прошла проверку временем.\n\n
-        Работа. Уход на больничный, совместный бизнес с членами семьи.\n\n
-        Финансы. Есть возможность для дальнейшего роста, неожиданный налог, создание сетевой компании, либо компании с множеством филиалов.\n\n
-        Благополучие. Естественная окружающая среда, режим питания правильный, натуральные продукты.\n\n
-        Взаимоотношения. Чувства крепкие и имеют под собой хорошую основу, новые отношения перспективны.\n\n
-        Деловые вопросы. Стабильность и успех, позиции в деловых вопросах крепкие и непоколебимые. Неприятных сюрпризов можно не ожидать.\n\n
-        Здоровье. Сильный иммунитет, который поможет справиться почти с любым заболеванием, много внутренних сил.\n\n
+        Personality. Forest or timber worker, gardener, trainer, health consultant, parents.\n\n
+        Love. Pleasant relations are developing in a positive direction. A strong love that has stood the test of time.\n\n
+        Job. Sick leave, joint business with family members.\n\n
+        Finance. There is room for further growth, an unexpected tax, the creation of a network company, or a company with many branches.\n\n
+        well-being. Natural environment, correct diet, natural products.\n\n
+        Relationships. Feelings are strong and have a good basis, new relationships are promising.\n\n
+        business questions. Stability and success, positions in business matters are strong and unshakable. Dont expect bad surprises.\n\n
+        Health. Strong immunity, which will help to cope with almost any disease, a lot of inner strength.\n\n
     </string>
     <string name="description_six_clouds">
-        Карта Ленорман ТУЧИ одна из самых негативных, она предупреждает о неприятных событиях, которые надвигаются
-        так же неуклонно, как грозовые облака. Это могут быть проблемы со здоровьем, на работе, в отношениях и в других
-        сферах вашей жизни. Но при этом стоит помнить о том, что после дождя всегда меньше грязи. В этом смысле карта ТУЧИ
-        может намекать на то, что после плохих событий начнется новый этап в жизни, который может стать успешным. Иногда
-        людям очень нужна перезагрузка, пусть и после печальных событий.
-        Но на карте есть как светлые облака, так и темные. Карты, которые выпадут рядом, подскажут какого рода проблем стоит ожидать.
-        Однако влияние карты ТУЧИ обычно довольно краткосрочное, ведь гроза не только быстро налетает, но и быстро проходит.
-        Поэтому эта карта часто говорит о психической нестабильности.\n\n
+       The Lenormand CLOUDS card is one of the most negative, it warns of unpleasant events that are coming
+        as relentless as thunderclouds. It can be health problems, at work, in relationships and in others.
+        areas of your life. But at the same time, it is worth remembering that after the rain there is always less dirt. In this sense, the CLOUDS map
+        may hint that after bad events a new stage in life will begin, which can become successful. Sometimes
+        people really need a reboot, albeit after sad events.
+        But on the map there are both light clouds and dark ones. The cards that fall out nearby will tell you what kind of problems to expect.
+        However, the influence of the CLOUDS card is usually quite short-term, because the thunderstorm not only quickly flies, but also quickly passes.
+        Therefore, this card often speaks of mental instability.\n\n
 
-        Личность. Психолог, человек в депрессии, настроен пессимистично, философ, отчим, метеоролог.\n\n
-        Любовь. Нет общих интересов, в отношения присутствует недосказанность и непонимание, один партнер не может довериться другому, и держит все в себе.\n\n
-        Работа. Плохая атмосфера на работе, имеют место подозрения, зависть, непонимание.\n\n
-        Финансы. События и новые сведения могут негативно влиять на сделки.\n\n
-        Благополучие. Перспективы неопределенны, успех будет сильно зависеть от обстоятельств, на
-        которые вы сами повлиять не можете. Нет уверенности в завтрашнем дне.\n\n
-        Взаимоотношения. Чувства пройдут очень серьезную проверку на прочность, все обстоятельства
-        будут против ваших отношений. Это не говорит о том, что чувства не имеют будущего, это говорит о том, что нужно потерпеть.\n\n
-        Деловые вопросы. Риск больших потерь по причинам, которые от вас не зависят (новые законы,
-        экономические кризисы, политические решения). Деловые партнеры могут подвести вас и подкинуть вам проблем.\n\n
-        Здоровье. Риск болезни, лечить которую придется очень долго и упорно.\n\n
+        Personality. Psychologist, depressed person, pessimistic, philosopher, stepfather, meteorologist.\n\n
+        Love. There are no common interests, there is understatement and misunderstanding in the relationship, one partner cannot trust the other, and keeps everything to himself.\n\n
+        Job. Bad atmosphere at work, there are suspicions, envy, misunderstanding.\n\n
+        Finance. Events and new information may negatively affect transactions.\n\n
+        well-being. Prospects are uncertain, success will depend heavily on circumstances
+        which you cannot influence. No confidence in the future.\n\n
+        Relationships. Feelings will pass a very serious test of strength, all circumstances
+        will be against your relationship. This does not mean that feelings have no future, it means that you need to be patient.\n\n
+        business questions. The risk of large losses for reasons beyond your control (new laws,
+        economic crises, political decisions). Business partners can let you down and give you problems.\n\n
+        Health. The risk of a disease that will take a very long time to treat.\n\n
     </string>
     <string name="description_seven_snake">
-        Карта Ленорман ЗМЕЯ имеет разные значения, ведь в разных культурах к этим созданиям
-        различное отношение. Ее считают соблазнительницей, символом зла, предательства и страха.
-        Иногда о ней говорят в контексте обновления, ведь змеи скидывают свою кожу каждый год. Ее
-        считают мудрой, но скрытной, красивой и обладающей волшебными способностями. Трудно найти
-        другое такое живое существо, к которому было бы столь разное отношение.
-        Появление карты ЗМЕЯ обычно является предупреждением, к которому нужно обязательно прислушаться.
-        В первую очередь предупреждение относится к вашему окружению. Здесь есть люди, которые
-        желают вам зла и обманывают вас. Карта ЗМЕЯ вообще символизирует ложь, двуличие и предательство. Рядом с вами есть угроза.
-        Но понять значение этой карты в каждом раскладе бывает не очень просто. Ведь ЗМЕЯ может легко
-        менять свои правила, нарушать привычный порядок вещей. Ее хитрость и ум позволяют ей это
-        делать легко и просто. Не всегда карта ЗМЕЯ предвещает серьезные неприятности, но она
-        однозначно говорит о том, что нужно быть осторожным. Не делитесь своими мыслями и планами,
-        относитесь внимательно к тому, что вам говорят.\n\n
+        The Lenormand SNAKE card has different meanings, because in different cultures to these creatures
+        different attitude. She is considered a seductress, a symbol of evil, betrayal and fear.
+        Sometimes they talk about it in the context of renewal, because snakes shed their skin every year. Her
+        considered wise, but secretive, beautiful and possessing magical powers. Difficult to find
+        another such living being, to which there would be such a different attitude.
+        The appearance of the SNAKE card is usually a warning that must be heeded.
+        First of all, the warning refers to your environment. There are people here who
+        wish you harm and deceive you. The SNAKE card generally symbolizes lies, duplicity and betrayal. There is a threat near you.
+        But to understand the meaning of this card in each scenario is not very easy. After all, the SNAKE can easily
+        change their rules, break the usual order of things. Her cunning and intelligence allow her to
+        make it easy and simple. The SNAKE card does not always portend serious troubles, but it
+        clearly suggests that you need to be careful. Do not share your thoughts and plans,
+        pay attention to what you are told.\n\n
 
-        Личность. Любовник или любовница, жулик, завистник, роковая женщина, соперник, карьерист, юрист.\n\n
-        Любовь. В любви присутствует соперничество, есть преследование, которое больше напоминает не
-        ухаживания, а охоту. На первом плане в отношениях секс, а чувства уже не так важны.\n\n
-        Работа. На работе возникнут сложности, предстоит инвентаризация.\n\n
-        Финансы. Борьба с конкурентами, шпионаж со стороны других компаний, попытки перехватить клиентов.\n\n
-        Благополучие. Борьба с искушениями, стоит брать с кого-то пример. Человек может постоять за себя.\n\n
-        Взаимоотношения. Карта ЗМЕЯ символизирует сексуальную энергию, во многих случаях это станет прочной основной для отношений.\n\n
-        Деловые вопросы. Партнеры нарушат свои обязательства, вы можете столкнуться с предательством. Потрясение будет сильное и неожиданное.\n\n
-        Здоровье. Если прогноз делают на лечение, то оно будет успешным. Иногда говорит о том,
-        что нужно использовать кардинальные методы лечения, вроде химиотерапии.\n\n
+        Personality. Lover or mistress, swindler, envious woman, femme fatale, rival, careerist, lawyer.\n\n
+        Love. In love there is rivalry, there is persecution, which is more like
+        courtship, but hunting. Sex is in the foreground in a relationship, and feelings are no longer so important.\n\n
+        Job. Difficulties will arise at work, inventory is due.\n\n
+        Finance. Fighting competitors, espionage by other companies, attempts to intercept customers.\n\n
+        well-being. Fighting temptations, it is worth taking an example from someone. A person can stand up for themselves.\n\n
+        Relationships. The SNAKE card symbolizes sexual energy, and in many cases this will become a strong foundation for relationships.\n\n
+        business questions. Partners will violate their obligations, you may face betrayal. The shock will be strong and unexpected.\n\n
+        Health. If the forecast is made for treatment, then it will be successful. Sometimes he talks about
+        that drastic treatments like chemotherapy should be used.\n\n
     </string>
     <string name="description_eight_coffin">
-        Карта Ленорман ГРОБ относится к одним из самых неблагоприятных, она всегда сулит изменение
-        жизни в худшую сторону, предвещает болезни, потери, затяжные кризисы, отсутствие удачи. С другой
-        стороны, всегда появятся новые возможности, так как если что-то потерял, то всегда можно найти новое.
-        Но легко не будет в любом случае.
-        Также эта карта говорит об окончании определенного периода, текущий этап вашей жизни подходит к концу
-        и скоро начнется следующий. Но есть риск зайти в тупик, выход из которого потребует очень много сил и энергии.\n\n
+        The Lenormand Coffin card is one of the most unfavorable, it always promises a change
+        life for the worse, portends illness, loss, protracted crises, lack of luck. With another
+        On the other hand, there will always be new opportunities, because if you lose something, you can always find a new one.
+        But it wont be easy either way.
+        This card also speaks of the end of a certain period, the current stage of your life is coming to an end.
+        and the next one will start soon. But there is a risk of reaching a dead end, the way out of which will require a lot of strength and energy.\n\n
 
-        Личность. Человек застрял в своем прошлом, работа связана с прошлым (например, археолог), человек из прошлого.\n\n
-        Любовь. Роман закончиться, любовник уйдет.\n\n
-        Работа. Сокращения на предприятии, сроки сдачи работы поджимают.\n\n
-        Финансы. Денежные потери, проблемы в бизнесе вплоть до банкротства. Возможно получение наследства.\n\n
-        Благополучие. Требуется длительный отдых, отсутствие энергии, апатия.\n\n
-        Взаимоотношения. Окончательный разрыв отношений, либо они продолжаться, но по инерции, так как чувства умрут.\n\n
-        Деловые вопросы. Отсутствие перспектив, убыточные контракты, потеря денег, неудачное партнерство.\n\n
-        Здоровье. В плане здоровья карта ГРОБ одна из самых неблагоприятных. Она может предвещать серьезное заболевание вплоть до летального исхода.\n\n
+        Personality. A person is stuck in his past, work is related to the past (for example, an archaeologist), a person from the past.\n\n
+        Love. The romance will end, the lover will leave.\n\n
+        Job. Reductions at the enterprise, deadlines are running out.\n\n
+        Finance. Financial losses, problems in business up to bankruptcy. Inheritance is possible.\n\n
+        well-being. Long rest required, lack of energy, lethargy.\n\n
+        Relationships. The final break in relations, or they continue, but by inertia, as feelings will die.\n\n
+        business questions. Lack of prospects, losing contracts, loss of money, failed partnerships.\n\n
+        Health. In terms of health, the GROB card is one of the most unfavorable. It may portend a serious illness up to death.\n\n
     </string>
     <string name="description_nine_flowers">
-        На карте Ленорман БУКЕТ изображены цветы, которые являются символом счастья. Вам будет
-        улыбаться удача в повседневных делах, особенно эта карта благоприятна для женщин. Можно
-        ожидать особого внимания со стороны партнера, неожиданные и очень приятные подарки. В целом
-        карта БУКЕТ предвещает отличное самочувствие, превосходное настроение и оптимистичный настрой.
-        В сердечных вопросах карта БУКЕТ предвещает хорошие новости: начнутся новые отношения, текущие
-        перейдут на новый этап развития, появятся новые импульсы. Но не стоит забывать о том,
-        что цветы в букетах недолговечны, они увядают довольно быстро, что делает эту карту символом
-        непостоянства. Все временно и ничто не длится вечно. БУКЕТ сильно влияет на соседние карты,
-        излучает на них доброту и позитивную энергетику. Влияние негативных карт смягчается, даже
-        если речь идет о самых плохих комбинациях.
-        Часто говорит собственно о получении подарка, который не обязательно должен быть материальным.
-        Признание заслуг тоже является хорошим подарком. Карта БУКЕТ символизирует красоту,
-        гармоничность, естественность. Говорит об оригинальных идеях, привлекательном внешнем
-        виде. Иногда сулит богатство и веселую жизнь.\n\n
+        The Lenormand BOUQUET card depicts flowers, which are a symbol of happiness. You will
+        smile good luck in everyday affairs, especially this card is favorable for women. Can
+        expect special attention from a partner, unexpected and very pleasant gifts. Generally
+        the BOUQUET card portends excellent health, excellent mood and an optimistic attitude.
+        In matters of the heart, the BOUQUET card portends good news: a new relationship will begin, current
+        will move to a new stage of development, new impulses will appear. But dont forget that
+        that flowers in bouquets are short-lived, they wither pretty quickly, which makes this card a symbol
+        impermanence. Everything is temporary and nothing lasts forever. BOUQUET greatly affects neighboring cards,
+        radiates kindness and positive energy to them. The influence of negative cards softens, even
+        when it comes to the worst combinations.
+        Often speaks of actually receiving a gift, which does not have to be material.
+        Recognition of merit is also a good gift. The BOUQUET card symbolizes beauty,
+        harmony, naturalness. Talks about original ideas, attractive appearance
+        form. Sometimes promises wealth and a merry life.\n\n
 
-        Личность. Невеста, работа связана с красотой или цветами, художник, веселая женщина мачеха.\n\n
-        Любовь. Хорошая пара, гармоничные отношения.\n\n
-        Работа. Большое количество работы, приятный интерьер в офисе.\n\n
-        Финансы. Хорошее отношение, которое иногда может переходить в подхалимство, коммерческий подкуп, подарки, которые могут быть взятками.\n\n
-        Благополучие. Уход за внешностью, косметическая хирургия, красота требует жертв.\n\n
-        Взаимоотношения. Начнутся новые отношения, либо старые получат дополнительный импульс для развития.\n\n
-        Деловые вопросы. Доходы будут увеличиваться, обстоятельства благоприятны для развития бизнеса.\n\n
-        Здоровье. Если есть заболевание, то оно скоро будет вылечено без последствий, в целом самочувствие хорошее, здоровье крепкое.\n\n
+        Personality. Bride, work related to beauty or flowers, artist, cheerful woman stepmother.\n\n
+        Love. Good couple, harmonious relationship.\n\n
+        Job. A lot of work, nice interior in the office.\n\n
+        Finance. Good attitude, which can sometimes turn into flattery, commercial bribery, gifts that can be bribes.\n\n
+        well-being. Grooming, cosmetic surgery, beauty requires sacrifice.\n\n
+        Relationships. New relationships will begin, or old ones will receive an additional impetus for development.\n\n
+        business questions. Income will increase, circumstances are favorable for business development.\n\n
+        Health. If there is a disease, then it will soon be cured without consequences, in general, the state of health is good, good health.\n\n
     </string>
     <string name="description_ten_sycthe">
-        Карта Ленорман КОСА является серьезным предупреждением, на которое нужно обратить
-        внимание в обязательном порядке. Она предупреждает о том, что от вас потребуется
-        осмотрительность и мудрый взгляд на окружающие вещи. Только это поможет если не избежать,
-        то серьезно смягчить грядущие неприятности.
-        Карта КОСА очень часто предупреждает о травмах, авариях и несчастных случаях. Опасность придет
-        неожиданно, оттуда, откуда вы ее совсем не ждали. Соседние хорошие карты могут смягчить
-        последствия, а в отдельных случаях даже предотвратить возникновение плохой ситуации,
-        но в любом случае в ближайшее время стоит быть максимально осторожным. Предупрежден – значит вооружен.
-        КОСА также говорит о том, что на любую опасную ситуацию нужно реагировать очень быстро,
-        но обдуманно. Карты, которые выпали справа, могут дать подсказку о том, что может вам
-        помочь. Также соседние карты могут подсказать, откуда ожидать опасности.\n\n
+        The Lenormand Spit card is a serious warning that you need to pay attention to.
+        attention is a must. She warns of what will be required of you
+        prudence and a wise look at surrounding things. Only this will help, if not avoided,
+        then seriously mitigate future troubles.
+        The KOSA card very often warns of injuries, accidents and accidents. Danger will come
+        unexpectedly, from where you did not expect it at all. Neighboring good cards can soften
+        consequences, and in some cases even prevent the occurrence of a bad situation,
+        but in any case, in the near future it is worth being as careful as possible. Forewarned is forearmed.
+        KOSA also says that any dangerous situation must be responded to very quickly,
+        but thoughtfully. The cards that fell on the right can give you a hint about what you can do.
+        help. Also, nearby cards can tell you where to expect danger from.\n\n
 
-        Личность. Хирург, страховой агент, представитель профессии, который имеет дело с острыми инструментами (например, парикмахер), работник склада, палач, радикально настроенный человек, ветеран войны.\n\n
-        Любовь. Предвещает расставание, партнер уйдет от вас. От любовника ничего хорошего ждать не стоит.\n\n
-        Работа. Снижение зарплаты, вероятность сверхурочной работы без адекватной оплаты, сокращение количества рабочих часов.\n\n
-        Финансы. Расторжение контракта после тяжелых переговоров, снижение количества сделок и продаж.\n\n
-        Благополучие. Расходы уменьшатся, обращение к хирургу, необходим перерыв.\n\n
-        Взаимоотношения. Отношения плохие, есть недопонимание, надвигается серьезный конфликт который может привести к разрыву отношений.\n\n
-        Деловые вопросы. Возникновение опасных ситуаций, будут шансы потерять все. Избегайте малейшего риска, работайте только с проверенными партнерами. Плохое время для развития.\n\n
-        Здоровье. Большая вероятность получения травмы, необходимость срочно обратиться к врачам, лечение откладывать больше нельзя.\n\n
+        Personality. Surgeon, insurance agent, professional who handles sharp instruments (e.g. hairdresser), warehouse worker, executioner, radicalized person, war veteran.\n\n
+        Love. Portends a breakup, the partner will leave you. Nothing good can be expected from a lover.\n\n
+        Job. Wage cuts, chances of working overtime without adequate pay, reduced work hours.\n\n
+        Finance. Termination of the contract after difficult negotiations, decrease in the number of transactions and sales.\n\n
+        well-being. Costs will decrease, see a surgeon, need a break.\n\n
+        Relationships. Relations are bad, there is a misunderstanding, a serious conflict is looming that could lead to a break in relations.\n\n
+        business questions. The occurrence of dangerous situations, there will be chances of losing everything. Avoid the slightest risk, work only with trusted partners. Bad time to develop.\n\n
+        Health. There is a high chance of injury, the need to urgently seek medical attention, treatment can no longer be postponed.\n\n
     </string>
     <string name="description_eleven_broom">
-        Карта Ленорман МЕТЛА обычно говорит о ссоре. Главной причиной является отсутствие гармонии
-        в семье, недопонимание и многочисленные конфликты. В отдельных случаях карта сулит наказание
-        за совершенные поступки, иногда говорит о том, что окружающие люди не могут вас понять, у вас
-        нет надежных друзей.
-        С другой стороны, МЕТЛА – символ очищения, она выметает все лишнее, вот только делает это
-        слишком грубо. Она не только выметает весь мусор, но также раскрывает и тайное.
-        Ее нейтральное значение говорит о перезагрузке, о том, что текущая ситуация прояснится.
-        Но в сочетании с другими картами чаще всего она предвещает конфликты на работе, в семье, ссоры с друзьями.\n\n
+The Lenormand Broom card usually speaks of a quarrel. The main reason is the lack of harmony
+        in the family, misunderstanding and numerous conflicts. In some cases, the card promises punishment
+        for perfect deeds, sometimes says that the people around you cannot understand you, you
+        no reliable friends.
+        On the other hand, the BROOM is a symbol of cleansing, it sweeps away everything superfluous, it just does it
+        too rough. She not only sweeps out all the garbage, but also reveals the secret.
+        Its neutral value indicates a reboot, that the current situation will become clearer.
+        But in combination with other cards, most often it portends conflicts at work, in the family, quarrels with friends.\n\n
 
-        Личность. Судья, чиновник, уборщик, дворник, государственный служащий, любит провоцировать, агитирует.\n\n
-        Любовь. Отношения прекратятся, нетрадиционная сексуальная ориентация, извращенные вкусы в сексе.\n\n
-        Работа. На работе ждут неприятности. Продолжительные дискуссии и даже споры по рабочим вопросам.\n\n
-        Финансы. Переговоры с партнерами, пересмотр сделок.\n\n
-        Благополучие. Очищение, раздражительное состояние, тренировки.\n\n
-        Взаимоотношения. Серьезная ссора, неудачный брак, отсутствие взаимопонимания, конфликты как в семье, так и с друзьями.\n\n
-        Деловые вопросы. Ссора между партнерами по бизнесу, сокращения на работе, неприятности с руководством.\n\n
-        Здоровье. Карта МЕТЛА отвечает за заболевания нервной системы, но в целом, она очень неблагоприятна в вопросах здоровья, так как обещает тяжелое течение заболевания и трудное излечение.\n\n
+        Personality. Judge, official, janitor, janitor, civil servant, likes to provoke, agitates.\n\n
+        Love. Relationships will end, homosexuality, perverted tastes in sex.\n\n
+        Job. Trouble awaits at work. Long discussions and even disputes over work matters.\n\n
+        Finance. Negotiations with partners, review of deals.\n\n
+        well-being. Purification, irritability, training.\n\n
+        Relationships. Serious quarrel, unsuccessful marriage, lack of understanding, conflicts both in the family and with friends.\n\n
+        business questions. Quarrel between business partners, layoffs, trouble with management.\n\n
+        Health. The Broom card is responsible for diseases of the nervous system, but in general, it is very unfavorable in matters of health, as it promises a severe course of the disease and a difficult cure.\n\n
     </string>
     <string name="description_twelve_owls">
-        Карта Ленорман СОВЫ символизирует мелкие неприятности и трудности, которые могут возникать
-        ежедневно. Нужно просто продолжать делать то, что вы делаете и этот период пройдет. Не стоит
-        позволять пустячным проблемам влиять на вашу жизнь.
-        Карта СОВЫ как раз и говорит о том, что небольшие неприятности легко лишают вас душевного
-        равновесия, вы начинаете слишком сильно суетиться, в стрессовых ситуациях теряете
-        способность принимать правильные и обдуманные решения.
-        СОВЫ также прямо указывают на устную речь, которая может быть как живой беседой, так и
-        общением по телефону. Также карта символизирует слухи, пустые разговоры, сплетни,
-        на людей, которые любят «перемывать косточки».\n\n
+The Lenormand OWL card symbolizes minor troubles and difficulties that may arise.
+        daily. You just need to keep doing what you are doing and this period will pass. Not worth it
+        let trifling problems affect your life.
+        The OWL card just says that small troubles easily deprive you of your soul.
+        balance, you start to fuss too much, in stressful situations you lose
+        the ability to make sound and thoughtful decisions.
+        OWLS also directly indicate oral speech, which can be both a live conversation and
+        telephone communication. The card also symbolizes rumors, empty talk, gossip,
+        people who like to "wash the bones".\n\n
 
-        Личность. Мелкий торговец, зазывала, выступает на сцене, зубной врач, рассказывает сказки, доносчик, коммивояжер, зануда.\n\n
-        Любовь. Частные свидания, хорошие и нежные отношения.\n\n
-        Работа. Бесконечная болтовня в офисе, переживания на рабочем месте, покупки в интернете.\n\n
-        Финансы. Продвижение товара на рынок, интервью деловому изданию.\n\n
-        Благополучие. Визит к логопеду, ангина, проблемы с горлом, методы лечения могут быть недоступны для вас.\n\n
-        Взаимоотношения. Сомнения, отсутствие уверенности в себе или в партнере, скорая переоценка ситуации, вероятность разочарования.\n\n
-        Деловые вопросы. Нужно еще раз все проверить, вы очень близки к принятию ошибочного решения. Лучше вообще воздержаться от важных действий.\n\n
-        Здоровье. Даже если ничего не болит и здоровье вас не беспокоит, лучше обратиться к врачу и пройти обследование. Возможно, есть скрытая болезнь, которую нужно лечить пока не стало слишком поздно.\n\n
+        Personality. Small trader, barker, stage performer, dentist, story teller, informer, salesman, bore.\n\n
+        Love. Private dates, good and tender relationship.\n\n
+        Job. Endless chatter in the office, worries in the workplace, online shopping.\n\n
+        Finance. Promotion of goods on the market, an interview with a business publication.\n\n
+        well-being. A visit to a speech therapist, sore throat, throat problems, treatments may not be available to you.\n\n
+        Relationships. Doubts, lack of confidence in yourself or in a partner, quick reassessment of the situation, the likelihood of disappointment.\n\n
+        business questions. You need to check everything again, you are very close to making the wrong decision. Its best to refrain from important activities altogether.\n\n
+        Health. Even if nothing hurts and your health does not bother you, it is better to consult a doctor and undergo an examination. Perhaps there is a hidden disease that needs to be treated before its too late.\n\n
     </string>
     <string name="description_threeteen_child">
-        Карта Ленорман РЕБЕНОК является благоприятной. В первую очередь она говорит о том,
-        что вы в начале пути, а впереди есть очень много возможностей. Самое главное
-        воспользоваться ими, дела сами себя не сделают. Если вы охотно и легко воспринимаете
-        новые идеи, то перед вами очень хорошие перспективы. Также символизирует доверие,
-        но если рядом плохие карты, то в этом случае речь идет о наивности, которая часто вредит
-        спрашивающему. Не стоит доверять всем подряд. Часто говорит о рождении ребенка.
-        Карта РЕБЕНОК указывает на человека, который еще не обладает опытом, совершает ошибки и
-        за ним нужен контроль. Он еще не созрел в эмоциональном плане, что очень часто
-        приводит к проблемам. Карта РЕБЕНОК говорит еще и о том, что события произойдут
-        в самое ближайшее время.
+      The Lenormand CHILD card is favorable. First of all, she talks about
+        that you are at the beginning of the journey, and there are a lot of opportunities ahead. The most important
+        use them, things wont do themselves. If you willingly and easily perceive
+        new ideas, then you have very good prospects. It also symbolizes trust
+        but if there are bad cards nearby, then in this case we are talking about naivety, which often harms
+        the questioner. You shouldnt trust everyone. Often talks about the birth of a child.
+        The CHILD card indicates a person who does not yet have experience, makes mistakes and
+        he needs control. He has not yet matured emotionally, which is very often
+        leads to problems. The CHILD card also says that events will happen
+        in the very near future.
 
-        Личность. Ребенок, подросток, умственно неполноценный человек, воспитатель, студент.\n\n
-        Любовь. Разница в возрасте между партнерами, искренние и чистые чувства.\n\n
-        Работа. Появится новый коллега, незначительные задания от руководства, работа, которая не требует большой квалификации.\n\n
-        Финансы. Исследование проекта, поиск выгоды. Сбережения, которые копили с детства или с юности.\n\n
-        Благополучие. Легкое отношение к жизни, человек умеет получать удовольствие от самых простых вещей. Что-то придется начать с самого начала, также может говорить о появлении заболевания в начальной стадии.\n\n
-        Взаимоотношения. Романтика, начало серьезных и крепких чувств, настоящая любовь. С плохими картами говорит об инфантильности и отсутствии зрелости, что может помешать отношениям. Также прямо указывает на скорое рождение ребенка.\n\n
-        Деловые вопросы. Для нового дела у вас недостаточно знаний, нужно подумать о дополнительном образовании или заручиться поддержкой опытных людей. Возможность начать все с самого начала.\n\n
-        Здоровье. Недоразвитость, внутренние органы не сформировались должным образом, что может говорить о хронических заболеваниях.\n\n
+        Personality. Child, teenager, mentally handicapped person, caregiver, student.\n\n
+        Love. Age difference between partners, sincere and pure feelings.\n\n
+        Job. A new colleague will show up, minor assignments from management, a job that doesnt require much skill.\n\n
+        Finance. Research project, search for benefits. Savings that have been accumulated since childhood or youth.\n\n
+        well-being. Easy attitude to life, a person knows how to enjoy the simplest things. Something will have to be started from the very beginning, it may also indicate the appearance of the disease in the initial stage.\n\n
+        Relationships. Romance, the beginning of serious and strong feelings, true love. With bad cards, it speaks of infantility and lack of maturity, which can interfere with relationships. It also directly indicates the imminent birth of a child.\n\n
+        business questions. For a new business, you do not have enough knowledge, you need to think about additional education or enlist the support of experienced people. The ability to start all over again.\n\n
+        Health. Underdevelopment, internal organs have not formed properly, which may indicate chronic diseases.\n\n
     </string>
     <string name="description_fourteen_fox">
-        Карта Ленорман ЛИСА символизирует хитрость, лукавство, многочисленные соблазны, коварство,
-        интриги, желание добиться целей путем обмана. Вы рядом с ловушкой и она очень хитрая, нужно
-        быть очень внимательным, чтобы не попасть в нее. Рядом с вами зло, намерения некоторых людей
-        лживые, они хотят использовать вас. Проблема в том, что распознать все это бывает очень трудно.
-        Карта ЛИСА предупреждает о том, что нужно быть внимательным в общении, не стоит болтать лишнего,
-        любую информацию могут использовать против вас. Если лисица умная и опытная, то она выживет
-        в любой ситуации, ее изворотливость и способность к манипуляции не позволят ее подловить.
-        Также карта ЛИСА указывает на этическую сторону деловых взаимоотношений, где возможные разные
-        варианты, например, соперничество в коллективе или обычная деловая обстановка. Также
-        символизирует хитрость и решительность, а эти инстинкты могут быть полезными. Если
-        использовать их в нужное время и для достижения конкретных целей.
-        Но в целом карта ЛИСА предупреждает вас об осторожности и о том, что свои планы и мысли
-        необходимо держать при себе. Даже если у кого-то изначально нет злых намерений,
-        они могут появиться, когда ему подвернется подходящая возможность.\n\n
+        The Lenormand FOX card symbolizes cunning, cunning, numerous temptations, deceit,
+        intrigue, the desire to achieve goals through deception. You are near a trap and she is very cunning, you need to
+        be very careful not to fall into it. Evil is near you, some peoples intentions
+        deceitful, they want to use you. The problem is that it can be very difficult to recognize all this.
+        The FOX card warns that you need to be careful in communication, do not talk too much,
+        any information can be used against you. If the fox is smart and experienced, then she will survive
+        in any situation, her resourcefulness and ability to manipulate will not allow her to be caught.
+        Also, the FOX card indicates the ethical side of business relationships, where possible different
+        options, such as team rivalry or a normal business environment. Also
+        symbolizes cunning and determination, and these instincts can be useful. If a
+        use them at the right time and to achieve specific goals.
+        But in general, the FOX card warns you to be careful and that your plans and thoughts
+        must be kept to yourself. Even if someone initially does not have evil intentions,
+        they may appear when he gets the right opportunity.\n\n
 
-        Личность. Жулик, преступник, лжец, мошенник, потребитель, ребенок, следователь, шпион, хитрый человек.\n\n
-        Любовь. В отношения присутствует обман, возможна измена. В семье разные мелкие проблемы, чаще всего они вызваны недоверием или закрытостью.\n\n
-        Работа. Работа не слишком интересна, нет желания строить карьеру, плохой руководитель, который не обладает нужной квалификацией.\n\n
-        Финансы. Шпионаж со стороны конкурентов. Рядом мошенники, в сделках или договорах есть подвох. Дела в целом идут плохо.\n\n
-        Благополучие. Безделье или забота о себе и своей жизни, удовлетворение насущных потребностей.\n\n
-        Взаимоотношения. Обман, измены, интриги, кто-то пытается завоевать ваше расположение и коварно воспользоваться этим.\n\n
-        Деловые вопросы. Умение искать различные лазейки и хитрость помогут вам в торговле. Возможности, которыми нужно воспользоваться.\n\n
-        Здоровье. Врачебные ошибки, заболевание сложно определить. Легкая простуда, температура.\n\n
+        Personality. Rogue, criminal, liar, swindler, consumer, child, investigator, spy, cunning person.\n\n
+        Love. There is deceit in the relationship, treason is possible. There are various minor problems in the family, most often they are caused by distrust or closeness.\n\n
+        Job. The work is not very interesting, there is no desire to build a career, a bad leader who does not have the necessary qualifications.\n\n
+        Finance. Espionage by competitors. There are scammers nearby, there is a catch in transactions or contracts. Things are not going well in general.\n\n
+        well-being. Idleness or taking care of yourself and your life, satisfaction of basic needs.\n\n
+        Relationships. Deception, betrayal, intrigue, someone is trying to win your favor and insidiously take advantage of this.\n\n
+        business questions. The ability to look for various loopholes and cunning will help you in trading. Opportunities to take advantage of.\n\n
+        Health. Medical errors, the disease is difficult to determine. Mild cold, fever.\n\n
     </string>
     <string name="description_fiveteen_bear">
-        Карта Ленорман МЕДВЕДЬ указывает на силу, благородство и отвагу, которые нужны
-        для достижения высоких целей. Если она выпадает с плохими картами, то это свидетельствует о том, что вам
-        хотят причинить зло, а главными мотивами выступают зависть и ревность, либо просто
-        глубокая антипатия. При этом врага не так просто распознать, зачастую вы думаете,
-        что он друг, но в действительности это совсем не так.
-        Также карта МЕДВЕДЬ может указывать на что-то очень большое, на то, что может даже пугать.
-        Это могут быть ежедневные обязанности, которые начинают тяготить и свалились на вас
-        тяжелым грузом, тащить который все сложнее и сложнее. Но в целом МЕДВЕДЬ является
-        символом силы, которая придет на помощь и защитит. Но в отдельных случаях это может
-        вас подавлять, вы будете чувствовать зависимость от покровителя и потеряете веру
-        в то, что вы сами способы справиться со своими неприятностями.
-        Карта МЕДВЕДЬ может означать материальное благополучие, которое также зависит от кого-то.
-        Если в гадании присутствуют сроки, то МЕДВЕДЬ говорит о длительном периоде стабильности.
-        В целом, если расклад не самый приятный, то можно рассчитывать на наличие покровителя,
-        который если не решит все ваши проблемы, то, как минимум поможет смягчить их последствия.
-        Но при этом не стоит делиться своими планами даже с близкими людьми.\n\n
+        The Lenormand BEAR card indicates the strength, nobility and courage that are needed
+        to achieve lofty goals. If it falls out with bad cards, then this indicates that you
+        want to do harm, and the main motives are envy and jealousy, or simply
+        deep dislike. At the same time, the enemy is not so easy to recognize, often you think
+        that he is a friend, but in reality this is not at all the case.
+        Also, the BEAR card can indicate something very big, something that can even scare.
+        It can be daily duties that begin to weigh down and fall on you.
+        a heavy load, which is becoming more and more difficult to carry. But in general the BEAR is
+        a symbol of strength that will come to the rescue and protect. But in some cases it may
+        suppress you, you will feel dependent on the patron and lose faith
+        in the fact that you yourself are the ways to cope with your troubles.
+        The BEAR card can mean material well-being, which also depends on someone.
+        If there are deadlines in fortune-telling, then the BEAR speaks of a long period of stability.
+        In general, if the alignment is not the most pleasant, then you can count on the presence of a patron,
+        which, if not solve all your problems, then at least help mitigate their consequences.
+        But at the same time, you should not share your plans even with close people.\n\n
 
-        Личность. Опекун, родители, начальник, адвокат, сильный спортсмен, бабушка, хозяин, влиятельный друг, мама, мелкий преступник.\n\n
-        Любовь. Долгие отношения, ваш партнер отличается великодушием, сильная влюбленность.\n\n
-        Работа. Должность связанна с большой ответственностью, начальник любит поворчать.\n\n
-        Финансы. Время для перспективных проектов и больших амбиций. Переговоры с позиции силы.\n\n
-        Благополучие. Физические упражнения, занятия спортом в целом, вера в свои силы, выносливость.\n\n
-        Взаимоотношения. Либо вы заботитесь о партнере и являетесь для него хорошим и надежным покровителем, либо наоборот. МЕДВЕДЬ говорит об опеке, заботе и сопереживании.\n\n
-        Деловые вопросы. Устойчивое положение, есть сильные партнеры, которые обладают влиянием и они способны помочь вашему бизнесу.\n\n
-        Здоровье. Крепкий иммунитет, у организма достаточно собственных сил, чтобы справиться почти с любой болезнью.\n\n
+        Personality. Guardian, parents, boss, lawyer, strong athlete, grandmother, owner, influential friend, mother, petty criminal.\n\n
+        Love. Long-term relationship, your partner is generous, strong love.\n\n
+        Job. The position is associated with great responsibility, the boss likes to grumble.\n\n
+        Finance. Time for promising projects and big ambitions. Negotiations from a position of strength.\n\n
+        well-being. Physical exercise, playing sports in general, self-confidence, endurance.\n\n
+        Relationships. Either you take care of your partner and are a good and reliable patron for him, or vice versa. BEAR speaks of care, concern and empathy.\n\n
+        business questions. A stable position, there are strong partners who have influence and they are able to help your business.\n\n
+        Health. Strong immunity, the body has enough of its own strength to cope with almost any disease.\n\n
     </string>
     <string name="description_sixteen_stars">
-        Карта Ленорман ЗВЕЗДЫ является счастливой, она говорит о надежде, будущих успехах.
-        Вы испытаете душевный подъем, придет вдохновение, но также она часто предупреждает
-        о том, что неожиданные успехи способны вскружить голову кому угодно. Иногда стоит просто
-        оставаться тем, кто вы есть и не хватать звезды с неба. Ваши цели должны четко
-        соответствовать вашим возможностям, не стоит предаваться несбыточным мечтам или желать
-        того, что в действительности вам не нужно.
-        С неблагоприятными картами ЗВЕЗДЫ сулят неудачу, есть риск совершить ошибку. С хорошими
-        картами стоит рассчитывать на удачу в любых делах.\n\n
+        The Lenormand STARS card is happy, it speaks of hope, future success.
+        You will experience elation, inspiration will come, but she also often warns
+        that unexpected successes can turn anyones head. Sometimes its worth it
+        stay who you are and miss the stars from the sky. Your goals must be clear
+        correspond to your capabilities, do not indulge in pipe dreams or wish
+        what you dont really need.
+        With unfavorable cards, STARS promise failure, there is a risk of making a mistake. With good
+        with cards, you should count on luck in any business.\n\n
 
-        Личность. Астролог, творческий человек, вдохновитель, занимается наукой, любит мечтать, находится в поиске, известный человек, художник.\n\n
-        Любовь. Взаимная любовь основанная на доверии. Вдохновенные чувства.\n\n
-        Работа. Поставленные цели будут достигнуты, в работе ждет успех, все будет даваться очень легко.\n\n
-        Финансы. Благотворительность, награда за приложенные усилия, гранты.\n\n
-        Благополучие. Исполнение обещаний, которые вы дали самому себе, присутствует полная уверенность в собственных силах, которая гарантирует успех.\n\n
-        Взаимоотношения. Возвышенные чувства, романтика.\n\n
-        Деловые вопросы. Карта ЗВЕЗДЫ слабо связана с материальным, она может говорить о научных разработках или важных открытиях. Собственно доходы она не предсказывает, разве что обещает хорошие долгосрочные перспективы.\n\n
-        Здоровье. Удовлетворительное состояние здоровья, если есть заболевание, то оно скоро уйдет. Физиотерапия.\n\n
+        Personality. Astrologer, creative person, inspirer, engaged in science, likes to dream, is in search, famous person, artist.\n\n
+        Love. Mutual love based on trust. Inspirational feelings.\n\n
+        Job. The set goals will be achieved, success awaits in work, everything will be given very easily.\n\n
+        Finance. Charity, effort rewards, grants.\n\n
+        well-being. Keeping the promises you made to yourself, there is complete self-confidence that guarantees success.\n\n
+        Relationships. Sublime feelings, romance.\n\n
+        business questions. The STAR map is weakly connected with the material, it can talk about scientific developments or important discoveries. She does not actually predict income, except that she promises good long-term prospects.\n\n
+        Health. Satisfactory state of health, if there is a disease, it will soon go away. Physiotherapy.\n\n
     </string>
     <string name="description_seventeen_stork">
+        The Lenormand STORK card is a symbol of recurring changes, happiness and native places. Often she
+        means following traditions, observing principles. Can talk about the birth of a child, or about future changes
+        in life, which will lead to important consequences. If the deal with bad cards, then this is already
+        indicates a change for the worse.
+        Where or where to expect changes will be prompted by the card that fell in front of the stork. The card that fell after
+        describe the nature of these changes. If we are talking about timing, then STORK talks about cyclicality and
+        equal periods. That is, something can be repeated at the same intervals.
+        But in general, the STORK card portends that the current situation will move forward. Not necessarily in
+        for the better, but change will come anyway. It can also refer to a person
+        whose main task is to take care of other people.\n\n
 
-        Карта Ленорман АИСТ – символ повторяющихся изменений, счастья и родных мест. Часто она
-        означает следование традициям, соблюдение принципов. Может говорить о рождении ребенка, либо о грядущих изменениях
-        в жизни, которые приведут к важным последствиям. Если расклад с плохими картами, то это уже
-        указывает на изменения в худшую сторону.
-        Откуда или где ждать изменений подскажет карта, которая выпала перед аистом. Карта, выпавшая после,
-        скажет о характере этих изменений. Если речь идет о сроках, то АИСТ говорит о цикличности и
-        равных периодах. То есть, что-то может повторяться с одинаковыми интервалами.
-        Но в целом карта АИСТ предвещает то, что текущая ситуация сдвинется с места. Не обязательно в
-        лучшую сторону, но перемены наступят в любом случае. Также может указывать на человека,
-        чья основная задача – забота о других людях.\n\n
-
-        Личность. Врач, учитель, семьянин, охранник или надсмотрщик, младенец, адвокат, перевозчик, близкие родственники.\n\n
-        Любовь. Встреча и знакомство с новым партнером, отношения получат развитие, высокая вероятность получить предложение, скорая свадьба.\n\n
-        Работа. Компания получит толчок для развития, условия труда улучшаться, нужно сосредоточиться на обучении новых коллег.\n\n
-        Финансы. Активный поиск инвестиций, колебание курсов.\n\n
-        Благополучие. Изменения в лучшую сторону, лечение бесплодия завершится успехом.\n\n
-        Взаимоотношения. Рождение или зачатие ребенка, отношения выйдут на новый уровень. Встретить свою любовь.\n\n
-        Деловые вопросы. Торговля принесет прибыль, долгая командировка, которая будет успешной. Выгодные связи с иностранными партнерами.\n\n
-        Здоровье. Самочувствие улучшится, скорое выздоровление. Иногда карта АИСТ говорит о том, что нужно поехать в санаторий или на лечебный курорт. Или просто сменить обстановку на время, это будет очень полезно.\n\n
+        Personality. Doctor, teacher, family man, guard or overseer, baby, lawyer, carrier, close relatives.\n\n
+        love. Meeting and getting to know a new partner, relationships will develop, a high probability of getting an offer, an early wedding.\n\n
+        job. The company will get an impetus for development, working conditions will improve, you need to focus on training new colleagues.\n\n
+        finance. Active search for investments, price fluctuations.\n\n
+        well-being. Changes for the better, infertility treatment will be successful.\n\n
+        Relationships. The birth or conception of a child, the relationship will reach a new level. Meet your love.\n\n
+        business questions. Trade will bring profit, a long business trip that will be successful. Profitable connections with foreign partners.\n\n
+        health. Feeling better, get well soon. Sometimes the STORK card says that you need to go to a sanatorium or a medical resort. Or just a change of scenery for a while, it will be very useful.\n\n
     </string>
     <string name="description_eighteen_dog">
-        Карта Ленорман СОБАКА является символом дружбы, а также помощи, взаимовыручки и защиты.
-        Она указывает на надежного друга, на человека, который заслуживает доверия, он не бросит
-        вас в трудный момент. Рядом с хорошими картами СОБАКА сулит удачу, а рядом с плохими
-        предупреждает о том, что ваше окружение не такое хорошее, как вы привыкли думать.
-        Карта СОБАКА также зачастую советует следовать своим инстинктам, самый первый порыв будет самым верным.
-        Это поможет избежать проблем или решить их с минимальными потерями. При таком раскладе она
-        предупреждает и о предстоящем трудном периоде в жизни, но ситуация все равно останется у вас
-        под контролем, нужно лишь приложить усилия и решить ее в свою пользу.
-        В отдельных раскладах карта СОБАКА намекает на друга, которому очень нужна ваша помощь.
-        Зачастую друзья находятся в очень неприятной ситуации, но при этом стесняются попросить о помощи.
-        Будьте внимательнее, ваша помощь необходима.\n\n
+        The Lenormand DOG card is a symbol of friendship, as well as help, mutual assistance and protection.
+        She points to a reliable friend, a person who is trustworthy, he will not leave
+        you at a difficult time. Next to good cards, a DOG promises good luck, and next to bad cards
+        warns that your environment is not as good as you used to think.
+        The DOG card also often advises you to follow your instincts, the very first impulse will be the surest.
+        This will help to avoid problems or solve them with minimal losses. In this arrangement, she
+        warns of the upcoming difficult period in life, but the situation will still remain with you
+        under control, you just need to make an effort and solve it in your favor.
+        In some layouts, the DOG card hints at a friend who really needs your help.
+        Often friends are in a very unpleasant situation, but at the same time they are embarrassed to ask for help.
+        Be careful, your help is needed.\n\n
 
-        Личность. Лучший друг, хороший знакомый, брат, сосед, консультант, попутчик, товарищеские отношения, готов прийти на помощь, партнер по бизнесу, дрессировщик или работает с животными.\n\n
-        Любовь. Очень близкие отношения, возможно они платонические. Очень редко указывает на инцест.\n\n
-        Работа. Напарник на работе, коллективный труд.\n\n
-        Финансы. Сделки будут надежными, партнерство выгодным для двух сторон. Стоит следовать заранее определенному курсу развития компании.\n\n
-        Благополучие. Тренировки, повседневные мелкие дела, помощь со стороны.\n\n
-        Взаимоотношения. Настоящая дружба, чувства могут перерасти в сильную любовь. Партнер верен вам и готов к самопожертвованию, ваше счастье для него на первом месте.\n\n
-        Деловые вопросы. В делах ожидайте успех, сторонние обстоятельства не смогут помешать. Хорошая работа подчиненных, верные компаньоны.\n\n
-        Здоровье. Реабилитация, раны заживают очень быстро. Намек на использование в лечении народных средств, настоек трав и других лекарственных препаратов без химии.\n\n
+        Personality. Best friend, good acquaintance, brother, neighbor, consultant, fellow traveler, companionship, willing to help, business partner, animal trainer or animal handler.\n\n
+        Love. Very close relationship, maybe platonic. Very rarely indicates incest.\n\n
+        Job. Partner at work, teamwork.\n\n
+        Finance. Transactions will be reliable, partnership is beneficial for both parties. It is worth following the companys predetermined course of development.\n\n
+        well-being. Training, everyday small things, outside help.\n\n
+        Relationships. True friendship, feelings can develop into strong love. The partner is faithful to you and ready for self-sacrifice, your happiness comes first for him.\n\n
+        business questions. In business, expect success, third-party circumstances will not be able to interfere. Good work by subordinates, loyal companions.\n\n
+        Health. Rehabilitation, wounds heal very quickly. A hint of the use of folk remedies, herbal tinctures and other drugs without chemicals in the treatment.\n\n
     </string>
     <string name="description_nineteen_tower">
-        Карта Ленорман БАШНЯ символизирует окончание дела, достижение долгожданного результата.
-        Часто речь может идти о деле всей жизни, на которое было потрачено очень много времени и
-        труда. Также БАШНЯ является символом устойчивости к внешним факторам, состояния стабильности.
-        Зачастую она предвещает долголетие и счастливые годы жизни.
-        Если карта БАШНЯ выпадает рядом с плохими картами, то ее значение становится негативным.
-        Стоит ожидать проблем с деньгами, заболевание, череду неудач. Достижение целей может
-        потребовать от вас очень много сил, как подъем на самую высокую башню.
-        Иногда карту БАШНЯ можно понять как символ изоляции и уединения, что может быть следствием расставания.
-        Также указывает на официальные учреждения, правительственные здания или на город.\n\n
+        The Lenormand TOWER card symbolizes the end of the matter, the achievement of the long-awaited result.
+        Often we can talk about the business of a lifetime, on which a lot of time has been spent and
+        labor. Also, the TOWER is a symbol of resistance to external factors, a state of stability.
+        Often it portends longevity and happy years of life.
+        If the TOWER card falls next to bad cards, then its value becomes negative.
+        We should expect problems with money, illness, a series of failures. Achieving goals can
+        require a lot of strength from you, like climbing the highest tower.
+        Sometimes the TOWER card can be understood as a symbol of isolation and solitude, which may be the result of a breakup.
+        Also indicates official institutions, government buildings, or the city.\n\n
 
-        Личность. Человек в возрасте, чиновник, официальное лицо, представитель власти, философ, руководитель, работает в правоохранительных органах, патриарх, архитектор, отец или дед.\n\n
-        Любовь. В отношениях есть нотки покровительства, любовь между людьми разного социального статуса, что в отдельных случаях может мешать.\n\n
-        Работа. Бюрократия, соблюдение правил.\n\n
-        Финансы. Налоги, бюджетные деньги.\n\n
-        Благополучие. Указывает на возможную изоляцию, лечебное учреждение. Есть способности организатора.\n\n
-        Взаимоотношения. Сильные и крепкие чувства, которые могут продлиться до конца дней, но без особых эмоций и романтики. Просто хорошие и практичные отношения, это все может указывать на брак по расчету.\n\n
-        Деловые вопросы. Стабильность во всем. Прочное место на рынке, конкуренты не смогут вам навредить.\n\n
-        Здоровье. Долгие года жизни, стабильное состояние, если есть заболевание, то оно уйдет или перейдет в хроническую стадию, но при этом не будет доставлять больших неудобств.\n\n
+        Personality. An aged person, an official, an official, a government official, a philosopher, a leader, a law enforcement officer, a patriarch, an architect, a father or grandfather.\n\n
+        Love. Relationships have notes of patronage, love between people of different social status, which in some cases can interfere.\n\n
+        Job. Bureaucracy, enforcement of rules.\n\n
+        Finance. Taxes, budget money.\n\n
+        well-being. Indicates possible isolation, medical facility. Has organizer abilities.\n\n
+        Relationships. Strong and strong feelings that can last until the end of days, but without much emotion and romance. Just a good and practical relationship, it could all point to a marriage of convenience.\n\n
+        business questions. Stability in everything. A solid place in the market, competitors will not be able to harm you.\n\n
+        Health. Long years of life, a stable condition, if there is a disease, it will go away or go into a chronic stage, but it will not cause much inconvenience.\n\n
     </string>
     <string name="description_twenty_garden">
-        Карта Ленорман САД, которую также иногда называют ПАРК, является символом приятного
-        времяпрепровождения, отдыха в хорошей компании, праздничного мероприятия. Она часто
-        сулит получение приглашения или поход на мероприятие, где вам будет легко и весело.
-        Также карта САД может говорить об иллюзиях, излишней самоуверенности и даже самодовольстве.
-        Одним словом, она предупреждает о слишком завышенной самооценке, а это всегда чревато
-        плохими последствиями. Не стоит думать о себе слишком много и слишком хорошо, возможно
-        это не так и падение будет очень неприятным.
-        Карта САД означает все, что связанно с отдыхом, от прогулки по набережной до похода в ночной
-        клуб или на футбольный матч. Часто она символизирует большие скопления людей по разным
-        причинам, это не обязательно могут быть праздничные мероприятия, таковым могут быть парад, митинг и т.д.
-        Эта карта обычно смягчает действие плохих карт. Но ее действие не слишком сильное, поэтому
-        если расклад в целом сулит неприятности, то карта САД лишь немного облегчит их.\n\n
+        The Lenorman GARDEN card, also sometimes referred to as the PARK, is a symbol of pleasant
+        pastime, rest in good company, festive event. She often
+        promises to receive an invitation or go to an event where you will be easy and fun.
+        Also, the SAD card can talk about illusions, excessive self-confidence and even complacency.
+        In a word, she warns of too high self-esteem, and this is always fraught with
+        bad consequences. Do not think too much of yourself and too well, perhaps
+        it is not so and the fall will be very unpleasant.
+        The GARDEN card means everything related to relaxation, from a walk along the promenade to a hike in the night
+        club or football match. Often it symbolizes large gatherings of people in different
+        reasons, these may not necessarily be festive events, such may be a parade, a rally, etc.
+        This card usually softens the effect of bad cards. But its effect is not too strong, so
+        if the alignment as a whole promises trouble, then the SAD card will only slightly alleviate them.\n\n
 
-        Личность. Светский человек, артист, модник, тусовщик, садовник, работает с картинами, предпочитает работать в команде.\n\n
-        Любовь. Новые спонтанные знакомства, мероприятия с благоприятной атмосферой для знакомств.\n\n
-        Работа. Корпоратив, отпуск, поездка с коллегами на природу.\n\n
-        Финансы. Общественные связи, экономическая обстановка в целом благоприятная, иногда можно ожидать улучшения материального положения.\n\n
-        Благополучие. Поездка на природу или в загородный дом, период восстановления сил, длительное общение.\n\n
-        Взаимоотношения. Равноправный союз, ровный и достаточно надежный. Иногда карта САД может говорить о том, что пара слишком много думает о мнении окружающих и старается соответствовать общепринятым нормам.\n\n
-        Деловые вопросы. Полезные знакомства на официальных мероприятиях, хорошие партнерские отношения. Взаимная выгода. Стоит следовать моде, следить за всем новым.\n\n
-        Здоровье. Благоприятная карта в вопросах здоровья. С плохими картами говорит о том, что причиной заболеваний является психология, нужно меньше нервничать и беречь нервы.\n\n
+        Personality. Socialite, artist, fashionista, party-goer, gardener, works with paintings, prefers to work in a team.\n\n
+        Love. New spontaneous acquaintances, events with a favorable atmosphere for dating.\n\n
+        Job. Corporate, vacation, trip with colleagues to nature.\n\n
+        Finance. Public relations, the economic situation is generally favorable, sometimes you can expect an improvement in the financial situation.\n\n
+        well-being. A trip to nature or to a country house, a period of recuperation, long-term communication.\n\n
+        Relationships. An equal union, even and quite reliable. Sometimes a SAD card can indicate that a couple thinks too much about the opinions of others and tries to conform to generally accepted norms.\n\n
+        business questions. Useful acquaintances at official events, good partnerships. Mutual benefit. It is worth following fashion, following everything new.\n\n
+        Health. Favorable card in matters of health. With bad cards, it indicates that psychology is the cause of diseases, you need to be less nervous and take care of your nerves.\n\n
     </string>
     <string name="description_twentyone_mountain">
-        Карта Ленорман ГОРЫ предвещает препятствия на вашем пути. Это могут быть как неприятные
-        обстоятельства, так и люди, которые ставят вам палки в колеса. Чаще всего гора будет
-        неприступной, поэтому нужно либо ждать, либо искать обходной путь. Умный в гору не пойдет, умный гору обойдет.
-        Карта ГОРА также является символом неподвижности, но желание подняться на гору говорит о том,
-        что вы готовы решать свои проблемы. Судьба бросила вам вызов, но сдаваться еще рано.
-        Путь будет сложный, но его необходимо пройти. Или пойти в обход. Кроме того, быстрый
-        подъем в гору чреват потерей сил и падением с большой высоты, а это намекает на то,
-        что излишняя самоуверенность вредна.
-        В отдельных случаях карта ГОРА символизирует надежную и незыблемую защиту, укрытие от плохих
-        ситуаций. В раскладе выпавшие слева карты будут указывать на тупик, этих путей нужно
-        избегать. Карты, которые выпали справа, говорят о том, что указанные трудности остались сзади.\n\n
+        The Lenormand MOUNTAINS map portends obstacles in your path. It can be as nasty
+        circumstances, as well as people who put spokes in your wheels. Most often the mountain will
+        impregnable, so you need to either wait or look for a workaround. The smart one will not go uphill, the smart one will bypass the mountain.
+        The MOUNTAIN card is also a symbol of immobility, but the desire to climb the mountain indicates that
+        that you are ready to solve your problems. Fate has challenged you, but its too early to give up.
+        The path will be difficult, but it must be passed. Or take a detour. In addition, fast
+        climbing a mountain is fraught with loss of strength and falling from a great height, and this hints at the fact that
+        that overconfidence is harmful.
+        In some cases, the MOUNTAIN card symbolizes reliable and unshakable protection, shelter from bad
+        situations. In the layout, the cards that fell on the left will indicate a dead end, these paths need
+        avoid. The cards that fell on the right indicate that the indicated difficulties are left behind.\n\n
 
-        Личность. Спортсмен, геолог, шахтер, работа с драгоценными металлами, каменотес, строитель, прораб, промышленный альпинист, влиятельный человек, соперник, которого нужно опасаться.\n\n
-        Любовь. Возможен временный разрыв отношений, безбрачие. Попытки сохранить отношения могут не увенчаться успехом.\n\n
-        Работа. Очень серьезный проект, работа сильно утомляет, сложные задачи, упорный и тяжелый труд.\n\n
-        Финансы. Крупные компании или монополии диктуют вам свои условия, вам приходится работать в невыгодной ситуации. Потери денег.\n\n
-        Благополучие. Сложный период, необходимо терпение.\n\n
-        Взаимоотношения. Между вами стена непонимания, преодолеть ее будет трудно. У отношений отсутствуют перспективы.\n\n
-        Деловые вопросы. Двоякое значение. В сочетании с хорошими картами обещает успех в делах, которые пойдут в гору. С плохими картами предвещает резкий спуск вниз, проблемы, препятствия.\n\n
-        Здоровье. В вопросах здоровья карта ГОРА имеет только негативное значение и указывает на заболевания. Чаще всего это заболевания, которые мешают организму нормально функционировать. Может указывать на тромбы и т.д. Могут возникнуть проблемы с зачатием детей или при родах.\n\n
+        Personality. Athlete, geologist, miner, precious metal worker, stonemason, builder, superintendent, industrial climber, powerful person, rival to be feared.\n\n
+        Love. A temporary break in relations, celibacy is possible. Attempts to save the relationship may fail.\n\n
+        Job. A very serious project, the work is very tiring, complex tasks, hard and hard work.\n\n
+        Finance. Large companies or monopolies dictate their terms to you, you have to work in a disadvantageous situation. Loss of money.\n\n
+        well-being. Difficult period, patience is needed.\n\n
+        Relationships. There is a wall of misunderstanding between you, it will be difficult to overcome it. Relationships have no prospects.\n\n
+        business questions. Double meaning. In combination with good cards, it promises success in business that will go uphill. With bad cards, it portends a sharp descent, problems, obstacles.\n\n
+        Health. In matters of health, the MOUNTAIN card has only a negative meaning and indicates diseases. Most often, these are diseases that prevent the body from functioning normally. May indicate blood clots, etc. You may have trouble conceiving or giving birth.\n\n
     </string>
     <string name="description_twentytwo_road">
+        The Lenormand FORKING card indicates that a decision will soon need to be made.
+        Neighboring cards may suggest in which area it will have to be received. But in any
+        In this case, you will have several options to choose from and it will be difficult to choose the right solution.
+        The FORKING card also speaks of the end of a stage in life, a new, but unknown, awaits ahead,
+        which can scare and cause sadness. Doubts can get in your way, but you need to remember that
+        choice will have to be made anyway. If there are bad cards nearby, then this is an obvious
+        hint: you are going to choose a bad option. If there are good cards nearby, then
+        you just need to think a little and the choice will be right.
+        The choice can wait for you anywhere, also the FORKING card often hints not at the actual choice,
+        but a large number of options. For example, different sources of income, easy relationships
+        with two people at once and doubts about who is better to choose. surrounds you
+        ambiguity and this must be reconciled. Its just a stage in your life that
+        happens to every person.\n\n
 
-        Карта Ленорман РАЗВИЛКА говорит о том, что скоро нужно будет принять решение.
-        Соседние карты могут подсказать, в какой области его придется принимать. Но в любом
-        случае у вас будет несколько вариантов на выбор и будет сложно выбрать верное решение.
-        Также карта РАЗВИЛКА говорит об окончании этапа в жизни, впереди ждет новое, но неизвестное,
-        что может пугать и вызывать печаль. Сомнения могут мешать вам, но нужно помнить, что
-        выбор придется сделать в любом случае. Если рядом легли плохие карты, то это явная
-        подсказка: вы собираетесь выбрать плохой вариант. Если рядом лежат хорошие карты, то
-        нужно лишь немного подумать и выбор будет правильным.
-        Выбор может ждать вас где угодно, также карта РАЗВИЛКА часто намекает не на собственно выбор,
-        а на большое количество вариантов. Например, разные источники доходов, легкие отношения
-        с двумя людьми сразу и сомнения относительно того, кого лучше выбрать. Вас окружает
-        двусмысленность и с этим нужно смириться. Это просто такой этап в вашей жизни, который
-        бывает у каждого человека.\n\n
 
-
-        Личность. Турист, человек на двух работах, дилетант, бродяга или нищий, охотник, любит
-        путешествовать, незнакомый человек.\n\n
-        Любовь. Вас любят, но вы не знаете этого человека. Отношения не развиваются. Вы встретите попутчика.\n\n
-        Работа. Возможность дополнительного заработка на другой работе, большое количество разных задач, придется работать за себя и за того парня.\n\n
-        Финансы. Есть несколько возможностей, самое время оценить методы работы. Партнеры или клиенты колеблются.\n\n
-        Благополучие. Наступает кризис среднего возраста. Хобби не будет лишним. Выбор, который повлияет на дальнейшую жизнь.\n\n
-        Взаимоотношения. Ситуация никак не может определиться, нужно разобраться в чувствах и сделать выбор, дальше так продолжаться не может. Иногда карта РАЗВИЛКА указывает на любовный треугольник.\n\n
-        Деловые вопросы. Перспективные пути для дальнейшего развития. Поиск компромиссных вариантов, когда нужно угодить сразу нескольким.\n\n
-        Здоровье. Лечение напрямую зависит от квалификации врача и правильного диагноза. Но диагноз может быть неоднозначным и подразумевать разные варианты.\n\n
+        Personality. A tourist, a person with two jobs, an amateur, a vagabond or a beggar, a hunter, loves
+        travel, stranger.\n\n
+        Love. You are loved, but you do not know this person. Relationships dont develop. You will meet a traveling companion.\n\n
+        Job. Opportunity to earn extra money at another job, a large number of different tasks, you will have to work for yourself and for that guy.\n\n
+        Finance. There are several possibilities, its time to evaluate the methods of work. Partners or clients hesitate.\n\n
+        well-being. A midlife crisis is coming. Hobbies will not be superfluous. A choice that will affect the rest of your life.\n\n
+        Relationships. The situation cannot be decided in any way, it is necessary to understand the feelings and make a choice, it cannot continue like this. Sometimes the FORK indicates a love triangle.\n\n
+        business questions. Promising ways for further development. Looking for compromise options when you need to please several at once.\n\n
+        Health. Treatment directly depends on the qualifications of the doctor and the correct diagnosis. But the diagnosis can be ambiguous and imply different options.\n\n
     </string>
     <string name="description_twentythree_rats">
+        The Lenorman RAT card portends problems with property. It could be damage
+        or missing. You can become a victim of thieves. It is worth checking all household appliances,
+        water pipes and wiring. Do not carry a wallet with a large amount of money,
+        and keep it in the inside pocket.
+        With bad RAT cards, it means that it will not be possible to make up for the loss. Rare layouts with
+        good cards portend the return of the lost. Everyone knows that RATS not only know how to
+        survive in any conditions, but also differ in greed and gluttony. That is why this
+        the card is a sign of serious losses and losses.
+        Losses can be in any area of your life, usually this is indicated by combinations with other cards,
+        the decoding of which you will find below. The nature of the loss is directly indicated by the card that fell after the RAT.\n\n
 
-        Карта Ленорман КРЫСЫ предвещает проблемы с имуществом. Это может быть порча, поломка
-        или пропажа. Вы можете стать жертвой воров. Стоит проверить всю бытовую технику,
-        водопроводные трубы и проводку. Не стоит носить с собой кошелек с большой суммой денег,
-        а держать его нужно во внутреннем кармане.
-        С плохими картами КРЫСЫ говорит о том, что восполнить потерю не получится. Редкие расклады с
-        хорошими картами предвещают возврат утраченного. Всем известно, что КРЫСЫ не только умеют
-        выживать в любых условиях, но и отличаются жадностью и прожорливостью. Именно поэтому эта
-        карта является знаком серьезных потерь и убытков.
-        Потери могут быть в любой сфере вашей жизни, обычно об этом говорят сочетания с другими картами,
-        расшифровку которых вы найдете ниже. На характер потери прямо указывает карта, которая выпала после КРЫСЫ.\n\n
-
-        Личность. Преступник, вор, мародер, попрошайка, покупает краденное, пессимистично настроен, энергетический вампир, отмывает деньги.\n\n
-        Любовь. Риск столкнуться с альфонсом. Отношения в целом приносят только разочарования.\n\n
-        Работа. Отсутствие свободных денег, все зарплата уходит на текущие расходы.\n\n
-        Финансы. Утрата денег, риск стать жертвой мошенников, проблемы с бухгалтерией.\n\n
-        Благополучие. Снижение уровня и качества жизни из-за стрессовых ситуаций, потеря веса, физическое и духовное истощение.\n\n
-        Взаимоотношения. Не самые хорошие отношения, партнеры пренебрегают интересами друг друга.\n\n
-        Деловые вопросы. Большие неприятности, финансовые потери, партнеры хотят обмануть вас. Риск кражи.\n\n
-        Здоровье. В плане здоровья плохая карта, которая обещает серьезные заболевания и непростое лечение. Также часто указывает на проблемы с пищеварением и на то, что болезнь перейдет в хроническую форму.\n\n
+        Personality. Criminal, thief, marauder, beggar, buys stolen goods, pessimistic, energy vampire, money launderer.\n\n
+        Love. The risk of colliding with the gigolo. Relationships in general only bring disappointment.\n\n
+        Job. Lack of free money, all salary goes to current expenses.\n\n
+        Finance. Loss of money, risk of becoming a victim of fraud, problems with accounting.\n\n
+        well-being. Decrease in the level and quality of life due to stressful situations, weight loss, physical and spiritual exhaustion.\n\n
+        Relationships. Not the best relationship, partners neglect each others interests.\n\n
+        business questions. Big trouble, financial loss, partners want to deceive you. Theft risk.\n\n
+        Health. In terms of health, a bad card that promises serious illnesses and difficult treatment. It also often indicates problems with digestion and the fact that the disease will become chronic.\n\n
     </string>
     <string name="description_twentyfour_heart">
-        Карта Ленорман СЕРДЦЕ является очень хорошей. Она символизирует любовь, настоящую дружбу,
-        отличное настроение. Если отношения уже есть, то они получат новый толчок для развития,
-        если их нет, то в скором времени стоит ожидать приятную встречу. Появление этой карты
-        сулит благоприятные возможности и в других сферах вашей жизни.
-        Но с плохими картами СЕРДЦЕ может предупреждать о гневе, ненависти, окончании
-        отношений или серьезном кризисе между партнерами. Как говорят «От любви
-        до ненависти – только один шаг» и все это идет от сердца. Плохие карты рядом
-        часто являются намеком на то, что вам нужно уделять партнеру больше внимания,
-        еще не все потеряно и если отношения вам действительно дорого, то вы сможете их сохранить.\n\n
+        The Lenormand HEART card is very good. It symbolizes love, true friendship,
+        excellent mood. If the relationship already exists, then they will receive a new impetus for development,
+        if they are not there, then a pleasant meeting should be expected soon. The appearance of this card
+        promises favorable opportunities in other areas of your life.
+        But with bad cards, the HEART can warn of anger, hatred, endings.
+        relationship or a serious crisis between partners. As they say "Out of love"
+        hatred is only one step away” and it all comes from the heart. Bad cards around
+        are often a hint that you need to pay more attention to your partner,
+        All is not lost, and if the relationship is truly dear to you, then you can keep it.\n\n
 
-        Личность. Любовник, психолог, безнадежный романтик, поклонник, кардиолог, веселый человек.\n\n
-        Любовь. Легкий флирт, приглашение на свидание, очень благоприятное время для любви.\n\n
-        Работа. Вы получаете удовлетворение от работы, руководитель во всем поддерживает вас и даже закрывает глаза на ваши «косяки». Продвижение по службе.\n\n
-        Финансы. Филантропия, трата средств на благие дела.\n\n
-        Благополучие. Занятие любимым делом дарит хорошие эмоции.\n\n
-        Взаимоотношения. Новые отношения, усиление чувств. Роман, который вы будете помнить до конца жизни вне зависимости от его исхода.\n\n
-        Деловые вопросы. В отношениях с партнерами мало логики, гораздо больше личных чувств. Решения часто принимаются спонтанно. В отдельных случаях это может вредить, бизнес требует холодной головы, а не горячего сердца.\n\n
-        Здоровье. С плохими картами говорит о болезнях сердца.\n\n
+        Personality. Lover, psychologist, hopeless romantic, suitor, cardiologist, fun person.\n\n
+        Love. Light flirting, date invitation, very auspicious time for love.\n\n
+        Job. You get satisfaction from work, the manager supports you in everything and even turns a blind eye to your “jambs”. Promotion.\n\n
+        Finance. Philanthropy, spending money on good causes.\n\n
+        well-being. Doing what you love gives you good emotions.\n\n
+        Relationships. New relationships, increased feelings. A novel that you will remember for the rest of your life, regardless of its outcome.\n\n
+        business questions. There is little logic in relations with partners, much more personal feelings. Decisions are often made spontaneously. In some cases, this can be harmful, business requires a cool head, not a warm heart.\n\n
+        Health. With bad cards, he speaks of heart disease.\n\n
     </string>
     <string name="description_twentyfive_ring">
-        Карта Ленорман КОЛЬЦО прямо указывает на брак. Если она выпала в позиции прошлого,
-        то брак уже совершился, если она в позиции будущего, то бракосочетание еще предстоит.
-        Она часто говорит об обязательствах, которые каждый партнер в отношениях должен на
-        себя взять. Они потребуют ответственного и серьезного подхода.
-        Если гадание на ежедневные дела, то КОЛЬЦО предвещает заключение соглашения, основой
-        которого станет доверие, предрасположенность друг к другу. Партнерские отношения будут
-        успешными, кроме случаев, когда плохие соседние карты прямо предвещают обратное.
-        Чаще всего это предвещает новую любовь, но в целом, это хорошее предзнаменование,
-        можно ожидать успеха во многих делах.
-        Как символ союзов карта КОЛЬЦО часто указывает на контракты или договоренности.
-        Но никогда не стоит забывать об обязанностях, которые вы на себя взяли. Не стоит
-        подводить партнера, который вам действительно доверяет. С некоторыми картами может
-        говорить о том, что союз будет не слишком надежный.
-        Карта КОЛЬЦО часто объединяет соседние карты, в этом смысле ее толкование может
-        быть иногда достаточно сложным. Но если выпали положительные карты, то это один из лучших
-        вариантов для вас. Вне зависимости от того, на что вы делаете расклад.\n
+        The Lenormand RING card directly indicates marriage. If she fell in the position of the past,
+        then the marriage has already taken place, if she is in the position of the future, then the marriage is yet to come.
+        She often talks about the obligations that each partner in a relationship has to make.
+        take yourself. They will require a responsible and serious approach.
+        If fortune-telling is for daily affairs, then the RING portends the conclusion of an agreement, the basis
+        which will be trust, predisposition to each other. partnerships will
+        successful, except when bad adjacent cards directly portend the opposite.
+        Most often this portends a new love, but in general, this is a good omen,
+        you can expect success in many things.
+        As a symbol of unions, the RING card often indicates contracts or agreements.
+        But never forget the responsibilities you have taken on. Not worth it
+        let down a partner who really trusts you. With some cards
+        to say that the union will not be very reliable.
+        The RING card often combines adjacent cards, in this sense its interpretation can
+        sometimes be quite complicated. But if positive cards fell out, then this is one of the best
+        options for you. Regardless of what you are planning.\n
 
-        Личность. Юрист, свидетель, держатель ценных бумаг, посредник, министр.\n\n
-        Любовь. Романтика в отношениях, взаимопонимание. Все проблемы решаются сообща.\n\n
-        Работа. Указывает на работу в команде.\n\n
-        Финансы. Начало совместных предприятий, подписание договоров, соглашения и обязательства, которые чаще будут исполнены.\n\n
-        Благополучие. Ваши биоритмы совпадают. Необходимо заботится о своем здоровье.\n\n
-        Взаимоотношения. Свадьба или помолвка. Начало очень крепких отношений, также может указывать на настоящую дружбу, которая важна для двух сторон.\n\n
-        Деловые вопросы. Заключение соглашения, выгодное партнерство.\n\n
-        Здоровье. Прислушайтесь к рекомендациям врача, сейчас самое время думать о своем здоровье.\n\n
+        Personality. Lawyer, witness, securities holder, mediator, minister.\n\n
+        Love. Romance in relationships, mutual understanding. All problems are solved together.\n\n
+        Job. Indicates teamwork.\n\n
+        Finance. Starting joint ventures, signing contracts, agreements and obligations that will be fulfilled more often.\n\n
+        well-being. Your biorhythms match. You need to take care of your health.\n\n
+        Relationships. Wedding or engagement. The beginning of a very strong relationship can also indicate true friendship, which is important for both parties.\n\n
+        business questions. The conclusion of an agreement, a profitable partnership.\n\n
+        Health. Listen to the doctors recommendations, now is the time to think about your health.\n\n
     </string>
     <string name="description_twentysix_book">
-        Карта Ленорман КНИГА имеет много значений.
-        Основополагающее – учение, открытия, решение загадок, открытие тайны. Это может быть
-        информация, которую от вас намеренно скрывают. Очень часто она советует получать новые
-        знания, которые могут в будущем принести вам огромную пользу и изменить вашу жизнь.
-        Намек на важность образования, которое можно получать всю жизнь. Ведь даже на пенсии
-        можно изучать что-то новое.
-        Также карта КНИГА символизирует секреты, тайны. Ведь для людей, которые не умеют читать,
-        книги – настоящая загадка. Но это не стоит понимать буквально, здесь возможно
-        переносное значение, например, «читать книгу жизни». А для этого нужна особая грамотность.\n\n
+        The Lenormand BOOK card has many meanings.
+        Fundamental - teaching, discoveries, solving riddles, discovering secrets. It could be
+        information that is intentionally withheld from you. Very often she advises getting new ones.
+        knowledge that can bring you great benefits and change your life in the future.
+        A hint at the importance of education, which can be obtained throughout life. After all, even in retirement
+        you can learn something new.
+        Also, the BOOK card symbolizes secrets, mysteries. For people who cant read
+        books are a real mystery. But this should not be taken literally, here it is possible
+        figurative meaning, for example, "to read the book of life." And this requires special literacy.\n\n
 
-        Личность. Образованный человек, преподаватель, сотрудник букмекерской конторы.\n\n
-        Любовь. Отношения, в которых нет любви, либо скрытая любовь. Иногда любовь по всем канонам, то есть, правильная.\n\n
-        Работа. Указывает на офисное помещение, работу с бумагами, подготовку докладов и отчетов.\n\n
-        Финансы. Бухгалтерия, работа с цифрами в документах.\n\n
-        Благополучие. Рекомендуется соблюдать режим, много читать, тренировать память.\n\n
-        Взаимоотношения. Отношения со сложным человеком, который закрылся в себе. Тайный роман. Но у таких отношений может быть очень перспективное будущее, нужно лишь помочь вашему партнеру раскрыться и вы не пожалеете о проявленном терпении и затраченных усилиях.\n\n
-        Деловые вопросы. Намек на то, что перед решением проблемы ее нужно изучить со всех сторон, вникнуть во все детали. Только это позволит решить ситуацию в вашу пользу. Также в данном случае КНИГА может выступать в роли указания на получение дополнительного образования.\n\n
-        Здоровье. В вопросах здоровья карта плохая, она говорит о том, что заболевания сложно диагностировать, а иногда они протекают в такой форме, что человек долго не может понять, что он болен. Сложности с постановкой правильного диагноза.\n\n
+        Personality. An educated person, a teacher, an employee of a bookmakers office.\n\n
+        Love. Relationships in which there is no love, or hidden love. Sometimes love is according to all the canons, that is, the right one.\n\n
+        Job. Indicates office space, paperwork, preparation of reports and reports.\n\n
+        Finance. Accounting, work with numbers in documents.\n\n
+        well-being. It is recommended to follow the regimen, read a lot, train your memory.\n\n
+        Relationships. Relationship with a difficult person who has closed in on himself. Secret romance. But such a relationship can have a very promising future, you just need to help your partner open up and you will not regret the patience and efforts expended.\n\n
+        business questions. A hint that before solving a problem, it needs to be studied from all sides, to delve into all the details. Only this will allow the situation to be resolved in your favor. Also in this case, the BOOK can act as an indication of further education.\n\n
+        Health. In matters of health, the map is bad, it says that diseases are difficult to diagnose, and sometimes they occur in such a form that a person cannot understand that he is sick for a long time. Difficulties in making a correct diagnosis.\n\n
     </string>
     <string name="description_twentyseven_letter">
-        Карта Ленорман ПИСЬМО символизирует получение документов, в этом смысле ее толкование
-        достаточно простое. Также это может быть сообщение в иной форме: электронное письмо, устные коммуникации.
-        Соседние карты могут подсказать, какого рода известий стоит ожидать, это могут быть как очень
-        позитивные новости, так и крайне плохие, либо нейтральные.
-        Сообщение может быть официальным или неофициальным. Также карта ПИСЬМО может предвещать получение
-        посылки, придет важная информация. Или это может быть совсем незначительное известие, которое
-        не окажет никакого влияния на вашу жизнь. Многое зависит от сочетания с другими картами.\n\n
+        The Lenormand LETTER card symbolizes the receipt of documents, in this sense, its interpretation
+        simple enough. It can also be a message in a different form: email, oral communication.
+        Neighboring cards can tell you what kind of news to expect, it can be very
+        positive news, and extremely bad, or neutral.
+        The message may be formal or informal. Also, the LETTER card may portend the receipt
+        parcels, important information will come. Or it may be a very insignificant piece of news that
+        will have no effect on your life. Much depends on the combination with other cards.\n\n
 
-        Личность. Курьер, вестник, почтальон, работает в информационной сфере, журналист или блогер, друзья в социальных сетях, секретарь, сотрудник офиса.\n\n
-        Любовь. Любовные послания, в текстах много романтики.\n\n
-        Работа. Пособие по безработице. Также может указывать на служебные обязанности, на собеседование или профессиональную пригодность.\n\n
-        Финансы. Придется столкнуться с бюрократией.\n\n
-        Благополучие. Соблюдайте режим, пройдите медицинское обследование.\n\n
-        Взаимоотношения. В письме содержится сообщение, которое относится только к двум людям, другим этого знать не нужно. Может указывать на любовь по переписке.\n\n
-        Деловые вопросы. Бумаги, которые имеют прямое отношение к текущим делам.\n\n
-        Здоровье. Карта нейтральна.\n
+        Personality. Courier, messenger, postman, works in the information field, journalist or blogger, friends in social networks, secretary, office worker.\n\n
+        Love. Love messages, there is a lot of romance in the lyrics.\n\n
+        Job. Unemployment benefit. It may also indicate job duties, an interview, or professional suitability.\n\n
+        Finance. Youll have to deal with bureaucracy.\n\n
+        well-being. Follow the regime, go through a medical examination.\n\n
+        Relationships. The letter contains a message that only applies to two people, the others do not need to know. May indicate pen pal.\n\n
+        business questions. Papers that are directly related to current affairs.\n\n
+        Health. The card is neutral.\n
     </string>
     <string name="description_twentyeight_man">
-        Карта Ленорман МУЖЧИНА означает сына, отца. Если гадает женщина, то это указывает
-        на любовника, мужа или на близкого друга. Может представлять мужчину, которым
-        интересуется женщина.
-        В некоторых раскладах карта МУЖЧИНА показывает на то, что в жизни спрашивающего активное
-        участие принимает мужчина.
-        Но в целом карта МУЖЧИНА является нейтральной и просто указывает на человека.\n\n
+        Card Lenormand MAN means son, father. If a woman is guessing, then this indicates
+        to a lover, husband or close friend. Can represent a man who
+        the woman is interested.
+        In some layouts, the MAN card shows that in the life of the asker there is an active
+        a man takes part.
+        But in general, the MAN card is neutral and simply indicates a person.\n\n
 
-        Личность. Папа, муж, сын, друг, жених партнер, начальник, содержит семью, любовник.\n\n
-        Любовь. Хороший секс, ваш любовник просто образец настоящего мужчины. Также просто указывает на настоящего мужчину.\n\n
-        Работа. Мужская работа, солидарность среди мужчин, мужской коллектив.\n\n
-        Финансы. Клиент, подписание соглашения.\n\n
-        Благополучие. Мужественность, но иногда наоборот, жалобы от мужчины. Целеустремленность и энергичность.\n\n
-        Взаимоотношения. Отношения продолжаются благодаря мужчине. Может говорить о появлении соперника, особенно если гадает мужчина.\n\n
-        Деловые вопросы. Вы понимаете всю полноту своей ответственности и готовы принимать любые решения.\n\n
-        Здоровье. Для женщин говорит о гормональных всплесках. Для мужчины – проблемы с потенцией.\n\n
+        Personality. Dad, husband, son, friend, fiance partner, boss, family supporter, lover.\n\n
+        Love. Good sex, your lover is just a sample of a real man. Also just points to a real man.\n\n
+        Job. Mens work, solidarity among men, mens team.\n\n
+        Finance. Client signing agreement.\n\n
+        well-being. Masculinity, but sometimes vice versa, complaints from a man. Purposefulness and energy.\n\n
+        Relationships. Relationships continue thanks to the man. Can talk about the appearance of an opponent, especially if a man is guessing.\n\n
+        business questions. You understand the fullness of your responsibility and are ready to make any decisions.\n\n
+        Health. For women, it speaks of hormonal surges. For a man - problems with potency.\n\n
     </string>
     <string name="description_twentynine_woman">
-        Карта Ленорман ЖЕНЩИНА символизирует женский пол. Если объектом гадания является мужчина,
-        то она указывает на важную в его жизни женщину. Это может быть сестра, дочь, мать, жена.
-        В целом карта является нейтральной и просто указывает на женщину.
-        Карты, которые находятся рядом, помогут понять, на кого именно указывает ЖЕНЩИНА, а
-        также определить характер и другие качества.\n\n
+        The Lenormand WOMAN card symbolizes the female gender. If the object of divination is a man,
+        then she points to an important woman in his life. It can be a sister, daughter, mother, wife.
+        In general, the card is neutral and simply indicates a woman.
+        The cards that are nearby will help you understand exactly who the WOMAN points to, and
+        also determine character and other qualities.\n\n
 
-        Личность. Подружка, жена, учительница, дочь, женщина-начальник, невеста.\n\n
-        Любовь. Женщина, которую любят. Спутница по жизни.\n\n
-        Работа. Бизнес-леди, самореализация, эффективный труд.\n\n
-        Финансы. Управляет семейным бюджетом, покупка необходимых товаров. Сосредоточена на карьере.\n\n
-        Благополучие. Условия в целом благоприятные, может указывать на гинекологию.\n\n
-        Взаимоотношения. Самоутверждение через опеку, женщина играет роль матери. Также карта ЖЕНЩИНА может предупреждать о том, что есть соперница, либо в отношения вмешивается мать или другая родственница по женской линии.\n\n
-        Деловые вопросы. Рекомендуется полагаться на свою интуицию и доверять чутью. Нестандартные решения, которые не всегда вытекают из логики, могут принести успех. Хорошее время для компромиссов. Влиятельная женщина.\n\n
-        Здоровье. Для мужчины сулит гормональные проблемы. Для женщины – проблемы по гинекологии.\n\n
+        Personality. Girlfriend, wife, teacher, daughter, female boss, fiancee.\n\n
+        Love. A woman who is loved. Life companion.\n\n
+        Job. Business lady, self-realization, efficient work.\n\n
+        Finance. Manages the family budget, purchases necessary goods. Career focused.\n\n
+        well-being. Conditions generally favorable, may indicate gynecology.\n\n
+        Relationships. Self-affirmation through guardianship, a woman plays the role of a mother. Also, the WOMAN card can warn that there is a rival, or that a mother or other female relative interferes in the relationship.\n\n
+        business questions. It is recommended to rely on your intuition and trust your instincts. Non-standard solutions that do not always follow from logic can bring success. Good time to compromise. Powerful woman.\n\n
+        Health. For a man, it promises hormonal problems. For a woman, gynecological problems.\n\n
     </string>
     <string name="description_thirty_lilies">
-        Карта Ленорман ЛИЛИИ обычно счастливая. Она показывает то, что вокруг вас хорошее
-        окружение, в вашей жизни благоприятный период, будет много радости. Символизирует
-        дорогу к мечте и своим  идеалам, предвещает долгую и счастливую жизнь.
-        В окружении негативных карт предвещает конфликты, неудачный период в жизни, внутреннюю дисгармонию.
-        Вы можете попасть в опалу из которой будет очень трудно выбраться, будете испытывать
-        неуверенность в собственных силах.
-        Также карта ЛИЛИИ символизирует гармонию, мудрость и опыт, который копили годами. Это может
-        указывать на человека, который даст ценный совет, либо кто-то нуждается в вашем участии.
-        Иногда карта говорит о страсти, а иногда наоборот, о жестко самоконтроле. Относительно
-        времени говорит о неторопливом развитии, временные рамки обычно 3-4 месяца. Зато результат,
-        который был достигнут постепенно, сохранится на долгие времена.\n\n
+        The Lenormand LILY card is usually lucky. She shows what is good around you.
+        environment, a favorable period in your life, there will be a lot of joy. Symbolizes
+        the road to your dream and your ideals, portends a long and happy life.
+        Surrounded by negative cards, it portends conflicts, an unsuccessful period in life, internal disharmony.
+        You can fall into disgrace from which it will be very difficult to get out, you will experience
+        self-doubt.
+        Also, the LILY card symbolizes harmony, wisdom and experience that has been accumulated over the years. It may
+        point to a person who will give valuable advice, or someone needs your participation.
+        Sometimes the card speaks of passion, and sometimes vice versa, of rigid self-control. Relatively
+        time indicates a leisurely development, the time frame is usually 3-4 months. But the result
+        that was achieved gradually will last for a long time.\n\n
 
-        Личность. Спонсор, человек опытный и зрелый, глава семьи, страстный, является покровителем и защитником, судья, примерный семьянин.\n\n
-        Любовь. Любовник, который значительно старше, в отношениях много страсти. Может указывать на мужчину в разводе или вдовца.\n\n
-        Работа. Пенсионеры, опытные и заслуженные коллеги.\n\n
-        Финансы. Улучшение благосостояния в целом.\n\n
-        Благополучие. Предстоит выход на пенсию, рассуждения неторопливые и зрелые.\n\n
-        Взаимоотношения. Красивые, шикарные отношения. Много романтики, настоящий букет чувств. Любовь расцветает всеми красками. Духовная близость.\n\n
-        Деловые вопросы. Абсолютная честность, настоящий рыцарский дух, можно не ожидать подвоха. Также ЛИЛИИ часто указывают на то, что вы занимаетесь своим делом и нужно продолжать движение в выбранном направлении.\n\n
-        Здоровье. Предсказывает успешное лечение. Иногда является предвестником пищевого отравления.\n\n
+        Personality. Sponsor, experienced and mature person, head of the family, passionate, patron and protector, judge, exemplary family man.\n\n
+        Love. A lover who is much older, there is a lot of passion in the relationship. May indicate a divorced man or a widower.\n\n
+        Job. Retired, experienced and distinguished colleagues.\n\n
+        Finance. Improved well-being in general.\n\n
+        well-being. Retirement is coming, the reasoning is slow and mature.\n\n
+        Relationships. Beautiful, chic relationship. A lot of romance, a real bouquet of feelings. Love blooms with all colors. Spiritual closeness.\n\n
+        business questions. Absolute honesty, a real chivalrous spirit, you can not expect a dirty trick. Also, LILIES often indicate that you are minding your own business and you need to continue moving in the chosen direction.\n\n
+        Health. predicts successful treatment. Sometimes it is a harbinger of food poisoning.\n\n
     </string>
     <string name="description_thirtyone_sun">
+        The Lenormand SUN card symbolizes light and heat, energy that will be enough to
+        perform any actions and complete cases. We should expect a very favorable period, good luck,
+        fame, new acquisitions and achievements. Wishes will come true, there will be good health
+        and always in a great mood. Neighboring cards will tell you exactly where to expect good things.
+        Also, the SUN card symbolizes stability, because our luminary has been appearing in the sky for billions
+        years, and the night is always followed by dawn. He says that they will help you even in a difficult
+        situations. Promises inspiration, an excellent period for self-realization and the beginning of new plans.
+        The SUN softens bad cards, if the alignment turned out to be too negative, then this can be understood,
+        as a need to endure. Then the SUN will rise and it will be much easier. Not worth it
+        indulge in despondency, troubles are temporary, and if you make an effort, then
+        they run out much faster.
+        Often indicates warmth, it can be summer, good weather, a resort. Or too much energy
+        to be applied as intended. The SUN has a good effect on the card that fell
+        in front of it, practically neutralizes the negative, makes the neutral positive,
+        and the good action will become even brighter. But this is not always true for the map,
+        which fell after the SUN. In individual combinations, problems cannot be avoided, but the consequences
+        will still be much softer.
+        If you get the SUN card, then you can safely start new business, success will accompany you.\n\n
 
-        Карта Ленорман СОЛНЦЕ символизирует свет и тепло, энергию, которой будет достаточно для
-        выполнения любых действий и завершения дел. Стоит ожидать очень благоприятный период, удачу,
-        славу, новые приобретения и достижения. Желания будут исполняться, будет хорошее самочувствие
-        и всегда отличное настроение. Соседние карты подскажут, где именно стоит ожидать хорошего.
-        Также карта СОЛНЦЕ символизирует стабильность, ведь наше светило появляется на небе уже миллиарды
-        лет, а за ночью всегда наступает рассвет. Говорит о том, что вам помогут даже в сложной
-        ситуации. Сулит вдохновение, отличный период для самореализации и начала новых планов.
-        СОЛНЦЕ смягчает плохие карты, если расклад получился слишком негативный, то это можно понимать,
-        как необходимость перетерпеть. Дальше взойдет СОЛНЦЕ и будет гораздо легче. Не стоит
-        предаваться унынию, неприятности носят временный характер, а если приложить усилия, то
-        они закончатся гораздо быстрее.
-        Часто указывает на тепло, это может быть лето, хорошая погода, курорт. Либо избыток энергии,
-        которую нужно применить по назначению. СОЛНЦЕ хорошо влияет на карту, которая выпала
-        перед ней, негативную практически нейтрализует, нейтральную сделает положительной,
-        а действие хорошей станет еще ярче. Но это не всегда актуально в отношении карты,
-        которая выпала после СОЛНЦЕ. В отдельных сочетаниях проблем не избежать, но последствия
-        все равно будут существенно мягче.
-        Если вам выпала карта СОЛНЦЕ, то вы можете смело начинать новые дела, успех будет сопутствовать вам.\n\n
 
-
-        Личность. Оптимистично настроенный человек, душа компании, имеет большое влияние, инициатор, первопроходец (во всех смыслах).\n\n
-        Любовь. Отношения без забот и хлопот, крепкая любовь, которая победит любые невзгоды.\n\n
-        Работа. Легкая работа, рабочее место около окна.\n\n
-        Финансы. Хорошие проценты, позитивные времена, нет проблем с деньгами.\n\n
-        Благополучие. Загар, солярий, скорое исцеление, расслабленность.\n\n
-        Взаимоотношения. Очень теплые отношения, в которых любовь и уважение друг к другу на первом месте. Это очень зрелые и взвешенные чувства, у вашего партнера самые серьезные намерения. Также возможно, что он поможет вам самореализоваться (или наоборот).\n\n
-        Деловые вопросы. Успех, карьера пойдет в гору, покровительство.\n\n
-        Здоровье. Если основным вопросом в гадании является лечение, то СОЛНЦЕ – одна из самых благоприятных карт. Говорит либо о крепком здоровье, либо о скором излечении без последствий. Хороший иммунитет, нет предрасположенности к заболеваниям.\n\n
+        Personality. An optimistic person, the soul of the company, has a great influence, initiator, pioneer (in every sense).\n\n
+        Love. Relationships without worries and hassles, strong love that will overcome any adversity.\n\n
+        Job. Light work, workplace near the window.\n\n
+        Finance. Good interest, positive times, no money problems.\n\n
+        well-being. Tanning, solarium, quick healing, relaxation.\n\n
+        Relationships. A very warm relationship in which love and respect for each other comes first. These are very mature and measured feelings, your partner has the most serious intentions. It is also possible that it will help you fulfill yourself (or vice versa).\n\n
+        business questions. Success, career will go uphill, patronage.\n\n
+        Health. If the main issue in divination is treatment, then the SUN is one of the most favorable cards. He speaks either of good health, or of a quick cure without consequences. Good immunity, no predisposition to disease.\n\n
     </string>
     <string name="description_thirtytwo_moon">
+        The Lenormand LUNA map often speaks of variability, because the Earths satellite every month
+        changes its shape. Often in the layout, this card has a double meaning. On the one hand, this
+        thirst for adventure, the desire to have fun, but on the other hand it can be interpreted,
+        as the need to set aside time to rest and reflect on life.
+        The LUNA card applies to work as well as to the decisions we make in the workplace or
+        choosing your career. If you want promotion, recognition and success, then you need to apply
+        maximum effort, you have no other options. The moon itself is not a source of light, it
+        reflects the light of the Sun, so this card can be taken as a symbol of the reflection of everything
+        what are we doing.
+        Do not forget that the MOON can be growing, which hints at growth, and maybe
+        decreasing, which indicates losses. But its all the same, its always been and always will be.\n
 
-        Карта Ленорман ЛУНА часто говорит об изменчивость, ведь спутник Земли каждый месяц
-        меняет свою форму. Часто в раскладе эта карта имеет двойное значение. С одной стороны это
-        жажда приключение, желание получить удовольствие, а с другой стороны ее можно толковать,
-        как необходимость выделить время на отдых и размышления о жизни.
-        Карта ЛУНА относится и к работе, а также к решениям, которые мы принимаем на рабочем месте или
-        выбирая свою карьеру. Если вы хотите повышения, признания и успеха, то нужно приложить
-        максимум усилий, других вариантов у вас нет. Сама по себе ЛУНА не источник света, она
-        отражает свет Солнца, поэтому эту карту можно воспринимать как символ отражения всего,
-        что мы делаем.
-        Не стоит забывать о том, что ЛУНА может быть растущей, что намекает на рост, а может быть и
-        убывающей, что говорит о потерях. Но это все неизменно, так было и так будет всегда.\n
-
-        Личность. Сторож, сосредоточен на карьере, прохожий, предается мечтаниям.\n\n
-        Любовь. Романтика, партнер наделен воображением, очень чувствительный.\n\n
-        Работа. Работа связана с творчеством, возможно работа в ночное время.\n\n
-        Финансы. Колебания на рынке, период нестабильности.\n\n
-        Благополучие. Пища для размышлений, изменчивое эмоциональное состояние.\n\n
-        Взаимоотношения. Зависит от окружающих карт. Если они хорошие, то ЛУНА сулит покой и тепло. Если негативные, то стоит ожидать нестабильный период, наплевательское отношение к людям.\n\n
-        Деловые вопросы. Привычные виды деятельности, следование традициям. В этот период лучше ничего не менять, иначе вы рискуете получить убытки.\n\n
-        Здоровье. Заболевание почек или мочеполовой системы. Гинекология.\n\n
+        Personality. Caretaker, career-focused, passer-by, daydreaming.\n\n
+        Love. Romantic, imaginative partner, very sensitive.\n\n
+        Job. The work is related to creativity, perhaps work at night.\n\n
+        Finance. Fluctuations in the market, period of instability.\n\n
+        well-being. Food for thought, shifting emotional state.\n\n
+        Relationships. Depends on surrounding cards. If they are good, then the MOON promises peace and warmth. If negative, then we should expect an unstable period, a disregard for people.\n\n
+        business questions. Habitual activities, following traditions. During this period, it is better not to change anything, otherwise you risk incurring losses.\n\n
+        Health. Disease of the kidneys or genitourinary system. Gynecology.\n\n
     </string>
     <string name="description_thirtythree_key">
-        Карта Ленорман КЛЮЧ чаще всего означает выход из ситуации, в какую сторону – другой вопрос,
-        но главное, что вы решите текущие проблемы и начнется следующий этап вашей жизни. Да, иногда
-        человек не знает, что находится за дверью, но это не всегда веский повод оставить ее закрытой.
-        Часто указывает на ключевой вопрос, решение которого может изменить всю жизнь в целом. Это
-        может быть проблема, не дававшая вам нормально жить очень долгое время.
-        Карта КЛЮЧ советует говорить правду. Иногда для решения неприятной ситуации будет нужна сторонняя
-        помощь, но если люди не знают что у вас проблемы, как они смогут вам помочь? Стоит быть
-        решительным, иначе вы никогда не достигнете своих целей.
-        Рядом с плохими картами КЛЮЧ говорит о том, что выход еще не обнаружен или то, что вы выбрали
-        неправильный вариант. Возможно, это повод переиграть все назад. Обычно появление этой
-        карты способно прояснить ситуацию и дать ответ на вопрос, который был задан.\n\n
+        The Lenormand KEY card most often means a way out of the situation, in which direction is another question,
+        but the main thing is that you solve the current problems and the next stage of your life will begin. Yes sometimes
+        a person does not know what is behind the door, but this is not always a good reason to leave it closed.
+        Often indicates a key issue, the solution of which can change the whole life as a whole. it
+        there may be a problem that has prevented you from living a normal life for a very long time.
+        The KEY card advises telling the truth. Sometimes a third party will be needed to solve an unpleasant situation.
+        help, but if people dont know you have a problem, how can they help you? worth being
+        decisive, otherwise you will never achieve your goals.
+        Next to the bad cards, the KEY says that the exit has not yet been discovered or that you have chosen
+        wrong option. Perhaps this is a reason to replay everything back. Usually the appearance of this
+        cards can clarify the situation and give an answer to the question that was asked.\n\n
 
-        Личность. Надежный человек, работает в сфере обеспечения безопасности, стратегическое мышление, тюремный надзиратель.\n\n
-        Любовь. Необычная любовь, незаурядные отношения.\n\n
-        Работа. Для решения вопроса потребуется мозговой штурм, работать нужно согласно стратегии.\n\n
-        Финансы. Реализация потенциала, удачные решения в области финансов.\n\n
-        Благополучие. Реализация потенциала.\n\n
-        Взаимоотношения. Решение насущных проблем, переход на следующий уровень. В отношениях нет стереотипов, присутствует раскрепощенность. Падение внутренних барьеров.\n\n
-        Деловые вопросы. Альтернативный подход, нестандартные действия приведут к успеху. Начало нового проекта, которому суждено стать успешным.\n\n
-        Здоровье. Метод лечения выбран верный, можно ожидать выздоровления. Редко указывает на протезы.\n\n
+        Personality. Reliable person, working in the field of security, strategic thinking, prison guard.\n\n
+        Love. Unusual love, extraordinary relationship.\n\n
+        Job. Brainstorming will be required to resolve the issue, you need to work according to the strategy.\n\n
+        Finance. Realization of potential, successful decisions in the field of finance.\n\n
+        well-being. Realization of potential.\n\n
+        Relationships. Solving pressing problems, moving to the next level. There are no stereotypes in the relationship, there is emancipation. Fall of inner barriers.\n\n
+        business questions. An alternative approach, non-standard actions will lead to success. The start of a new project destined to be successful.\n\n
+        Health. The method of treatment chosen is correct, recovery can be expected. Rarely indicates dentures.\n\n
     </string>
     <string name="description_thirtyfour_fish">
-        Карта Ленорман РЫБЫ является хорошей в отношении планов и надежд на будущее.
-        Ничего просто так не будет, но все ваши усилия не пропадут и результат будет достигнут.
-        Карта может быть символом окончания пути, достигнутого успеха. Вы поймали свою рыбу.
-        В сочетании с плохими картами говорит о том, что ваши планы слишком амбициозные и не соответствуют
-        возможностям. Вероятно вы находитесь в плохом окружении, которое мешает вам реализовать себя.
-        Все новые начинания закончатся не очень хорошо, очень часто вас будут подводить люди, которым
-        вы доверились совершенно зря.
-        Но чаще всего карта РЫБЫ обещает деньги, выгодные контракты и улучшение материального положения.
-        Она связана с торговлей, куплей и продажей имущества, различными сделками. Иногда она может означать только воду.\n\n
+The Lenormand FISH card is good in terms of plans and hopes for the future.
+        Nothing will just happen, but all your efforts will not be wasted and the result will be achieved.
+        The card can be a symbol of the end of the path, success achieved. You have caught your fish.
+        Combined with bad cards, it means that your plans are too ambitious and do not match.
+        opportunities. You are probably in a bad environment that prevents you from realizing yourself.
+        All new beginnings will not end very well, very often you will be let down by people who
+        you trusted completely in vain.
+        But most often, the FISH card promises money, lucrative contracts and an improvement in financial standing.
+        It is associated with trade, purchase and sale of property, various transactions. Sometimes it can only mean water.\n\n
 
-        Личность. Рыболов, бизнесмен, торговец, финансист, ростовщик.\n\n
-        Любовь. Совместное использование финансов, ждите визита сватов, вы хорошо подходите друг другу.\n\n
-        Работа. Уважаемая работа, дает необходимые средства к существованию. Трудовой стаж, трудовая книжка.\n\n
-        Финансы. Торговые сделки, обналичивание денег, продажа ликвидных активов.\n\n
-        Благополучие. Отдых у моря, спорт.\n\n
-        Взаимоотношения. Чувства крепкие, впрочем, расчет также имеет место. Но это часто делает отношения еще надежнее.\n\n
-        Деловые вопросы. Прибыль, инвестиции будут прибыльными, дела пойдут в гору.\n\n
-        Здоровье. С плохими картами указывает на простудные заболевания, проблемы с сосудами, а также на скрытые болезни, которые тихо съедают здоровье, но вот выявить их очень сложно.\n\n
+        Personality. Fisherman, businessman, merchant, financier, pawnbroker.\n\n
+        Love. Sharing finances, expect matchmakers to visit, you are a good match.\n\n
+        Job. Respectable work, provides the necessary means of subsistence. Work experience, work book.\n\n
+        Finance. Trading deals, cashing out money, selling liquid assets.\n\n
+        well-being. Rest by the sea, sports.\n\n
+        Relationships. Feelings are strong, however, calculation also takes place. But it often makes the relationship even stronger.\n\n
+        business questions. Profits, investments will be profitable, things will go uphill.\n\n
+        Health. With bad cards, it indicates colds, problems with blood vessels, as well as hidden diseases that quietly eat up health, but it is very difficult to identify them.\n\n
     </string>
     <string name="description_thirtyfive_anchor">
-        Карта Ленорман ЯКОРЬ символизирует устойчивость и неизменность ситуации, которая в одних
-        случаях может быть большим плюсом, а в других – минусом. Разумеется, стабильность плоха лишь
-        тогда, когда ситуация в целом неприятная, когда в жизни черная полоса. Но чаще ЯКОРЬ является
-        символом постоянства в положительном плане.
-        Многое зависит от сочетаний с другими картами, именно они подскажут, какая ситуация будет неизменной.
-        Также карта ЯКОРЬ часто указывает на уравновешенного человека, который склонен обдумывать свои решения.\n\n
+        The Lenormand ANCHOR card symbolizes the stability and immutability of the situation, which in some
+        It can be a big plus in some cases and a minus in others. Of course, stability is only bad
+        when the situation as a whole is unpleasant, when there is a black streak in life. But more often the ANCHOR is
+        a symbol of constancy in a positive way.
+        Much depends on combinations with other cards, they will tell you which situation will be unchanged.
+        Also, the ANCHOR card often indicates a balanced person who tends to think about his decisions.\n\n
 
-        Личность. Сиделка, наследник, трудоголик, самостоятельный, посредник, страховой агент.\n\n
-        Любовь. Отношения ровные, либо они себя уже исчерпали. Нужно их прекратить или искать пути для их развития. Может указывать на настоящую любовь и верность до гроба.\n\n
-        Работа. Рутина, большое количество мелких дел, которые не дают расслабиться. Нудный труд.\n\n
-        Финансы. Стабильность.\n
-        Благополучие. Отношения удобны для всех, рутина, есть полезные связи.\n\n
-        Взаимоотношения. Доверие и преданность. Стабильные отношения. С плохими картами говорит о скуке, о том, что отношения кого-то тяготят или надоели.\n\n
-        Деловые вопросы. Материальная база прочная, бизнес надежный. На партнеров можно рассчитывать.\n\n
-        Здоровье. Относительно вопросов здоровья карта ЯКОРЬ является нейтральной. Изредка говорит о том, что заболевания станут хроническими.\n\n
+        Personality. Nurse, heir, workaholic, self-employed, mediator, insurance agent.\n\n
+        Love. Relations are equal, or they have already exhausted themselves. We need to stop them or look for ways to develop them. May indicate true love and loyalty to the grave.\n\n
+        Job. Routine, a large number of small things that do not allow you to relax. Tedious work.\n\n
+        Finance. Stability.\n
+        well-being. Relationships are convenient for everyone, routine, there are useful connections.\n\n
+        Relationships. Trust and devotion. stable relationship. With bad cards, it speaks of boredom, that someons relationship is burdensome or tired.\n\n
+        business questions. The material base is strong, the business is reliable. You can count on partners.\n\n
+        Health. Regarding health issues, the ANCHOR card is neutral. Rarely indicates that diseases will become chronic.\n\n
     </string>
     <string name="description_thirtysix_cross">
-        Карта Ленорман КРЕСТ очень сильная, она влияет на весь расклад. Зачастую она предвещает
-        мучения, страдания и нелегкий период. Символизирует окончание одного периода и начало
-        следующего. Перемены будут непростыми, но не всегда они к худшему, здесь нужно смотреть
-        на другие карты. КРЕСТ очень часто проверяет нас на прочность, на то, как мы переносим
-        испытания, которые послала сама Судьба.
-        Карта КРЕСТ предвещает изменение мировоззрения, отказ от планов, пересмотр взглядов на многие вещи.
-        Переоценка ценностей, осмысление реальности – все это ожидает нас в ближайшее время. Сама
-        по себе карта негативная, но с плохими приобретает ужасное значение. При многих сочетаниях
-        перемены к худшему неизбежны. Но отчаиваться не стоит, черная полоса всегда сменяется белой.\n\n
+The Lenormand CROSS card is very strong, it affects the entire alignment. It often portends
+        torment, suffering and hard times. Symbolizes the end of one period and the beginning
+        next. Change will not be easy, but not always for the worse, you need to look here
+        to other cards. The CROSS very often tests us for strength, for how we endure
+        tests that fate itself sent.
+        The CROSS card portends a change in worldview, a rejection of plans, a revision of views on many things.
+        Reassessment of values, understanding of reality - all this awaits us in the near future. Herself
+        in itself, the card is negative, but with bad ones it acquires a terrible meaning. With many combinations
+        changes for the worse are inevitable. But do not despair, the black stripe is always replaced by a white one.\n\n
 
-        Личность. Спасатель, хронический неудачник, предан своим идеалам, начальник, часто бывает козлом отпущения.\n\n
-        Любовь. Непростые отношения, есть недопонимание.\n\n
-        Работа. Удаленная работа, фриланс, самозанятость. Любая работа вне коллектива.\n\n
-        Финансы. Краткосрочные займы, погашение кредита.\n\n
-        Благополучие. Сложный период, однако, есть новые возможности. Нестабильное эмоциональное состояние.\n\n
-        Взаимоотношения. Предстоит очень серьезная проверка любви на прочность.\n\n
-        Деловые вопросы. Для бизнеса карта резко негативная. Иногда лучше бросить безнадежное дело и начать новое, чем пытаться реанимировать труп.\n\n
-        Здоровье. Тяжелая болезнь, возможны осложнения вплоть до инвалидности. Карта КРЕСТ часто говорит о том, что болезнь пришла не просто так. Это наказание за ошибки прошлого.\n\n
+        Personality. Rescuer, chronic loser, committed to his ideals, boss, often the scapegoat.\n\n
+        Love. Difficult relationship, there is a misunderstanding.\n\n
+        Job. Remote work, freelance, self-employment. Any work outside the team.\n\n
+        Finance. Short-term loans, loan repayment.\n\n
+        well-being. Difficult period, however, there are new opportunities. Unstable emotional state.\n\n
+        Relationships. A very serious test of love lies ahead.\n\n
+        business questions. For business, the map is sharply negative. Sometimes its better to quit a lost cause and start over than trying to revive a corpse.\n\n
+        Health. Severe disease, possible complications up to disability. The CREST card often indicates that the disease did not come just like that. This is punishment for the mistakes of the past.\n\n
     </string>
-    <string name="shuffle">Перемешать</string>
-    <string name="lenorman">Ленорман</string>
-    <string name="ask_question">Задайте вопрос</string>
-    <string name="get_answer">Получите ответ</string>
-    <string name="how_read_cards">Как гадать на картах?</string>
-    <string name="instruction">Подумайте ответ на какой вопрос вы хотите узнать, не рекомендуется спрашивать у карт качественные и количественные показатели(Например вопрос который требует ответа только да или нет). Рекомендуется задавать вопросы более общего плана, например про любовь, про отношения между людьми, карьеру и так далее. После того как вы придумали ваш вопрос перемешайте карты столько раз, сколько посчитаете нужным, полагайтесь полностью на свои ощущения. После того как вы премешаете карты, пролистайте колоду и нажмите карту которую посчитаете нужной. Всего нужно выбрать 3 карты. После того как вы выбрали все 3 карты нажимайте на их картинки и читайте значения, пытайтесь связать их в одно целое. Помните что в гадании нужно полагаться только на свои ощущения, в некоторых раскладх значения карт могут отличаться от тех что находяться в описании, это зависит от многих факторов, нужно просто понять. Чем больше гадаете, тем лучше получается. Помните что гадание научно не обосновано и не доказано, предсказания могут как сбыться так и нет.</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="lenorman">Lenormand</string>
+    <string name="ask_question">Ask a question</string>
+    <string name="get_answer">Get an answer</string>
+    <string name="how_read_cards">How to guess on the cards?</string>
+    <string name="instruction">
+        Instruction: \n
+        Think of a question, if the question contains the name of a person, then pronounce his full name,
+        Shuffle the cards as many times as you see fit
+        either click on the "Shuffle" button, or just shake the phone).
+        When you finish shuffling the cards, scroll through the deck and click on the ones you see fit.
+        In total, you need to choose 3 cards.
+        After you select all the cards, click on the picture of the card and read the values. Try to link all three cards in one answer to your question.
+        It may not work at first, but then you will learn.\n\n
+        Do not take this application seriously, predictions may or may not come true. Think of it as just entertainment.
+
+    </string>
 </resources>

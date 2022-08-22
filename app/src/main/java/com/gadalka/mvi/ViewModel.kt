@@ -1,5 +1,6 @@
 package com.gadalka.mvi
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.gadalka.models.CardModel
@@ -7,6 +8,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import kotlin.math.abs
 
 class ViewModel(
     state: State
@@ -172,6 +174,15 @@ class ViewModel(
             is Intent.CardDescriptionClick -> cardDescriptionClick(intent.id)
             Intent.ClearDescriptions -> clearDescription()
             is Intent.ShowInfo -> _state.value = _state.value.copy(isShowInfo = intent.isShow, bottomSheetShown = intent.isShow)
+            is Intent.AccelerometerData -> {
+                val sumValues = intent.values.sumModulo()
+
+                Log.d("ACCELEROMETER_VALUES", sumValues.toString())
+                if (sumValues > 40) {
+                    shuffleCards()
+                }
+            }
+            Intent.TurnOffVibrate -> _state.value = _state.value.copy(isVibrate = false)
         }
     }
 
@@ -212,7 +223,7 @@ class ViewModel(
             )
 
             delay(500L)
-            _state.value = _state.value.copy(offset = 0)
+            _state.value = _state.value.copy(offset = 0, isVibrate = true)
         }
     }
 
@@ -227,4 +238,13 @@ class ViewModel(
     private fun findCard(id: Int): CardModel = _state.value.allCards.find {
         it.id == id
     }!!
+}
+
+
+fun FloatArray.sumModulo(): Float {
+    var sum = 0.0f
+    for (element in this) {
+        sum += abs(element)
+    }
+    return sum
 }

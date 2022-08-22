@@ -6,4 +6,6 @@ sealed class Intent {
     object ShuffleCards : Intent()
     object ClearDescriptions : Intent()
     class ShowInfo(val isShow: Boolean) : Intent()
+    class AccelerometerData(val values: FloatArray) : Intent()
+    object TurnOffVibrate : Intent()
 }
