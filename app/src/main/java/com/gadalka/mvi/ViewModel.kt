@@ -1,6 +1,5 @@
 package com.gadalka.mvi
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.gadalka.models.CardModel
@@ -163,8 +162,11 @@ class ViewModel(
         ),
     )
 
+    private var clickCounter = 0
+
     init {
-        _state.value = state.copy(allCards = (cards.shuffled() as ArrayList<CardModel>))
+        _state.value =
+            state.copy(allCards = (cards.shuffled() as ArrayList<CardModel>), isShowAd = true)
     }
 
     fun performIntent(intent: Intent) {
@@ -173,16 +175,18 @@ class ViewModel(
             Intent.ShuffleCards -> shuffleCards()
             is Intent.CardDescriptionClick -> cardDescriptionClick(intent.id)
             Intent.ClearDescriptions -> clearDescription()
-            is Intent.ShowInfo -> _state.value = _state.value.copy(isShowInfo = intent.isShow, bottomSheetShown = intent.isShow)
+            is Intent.ShowInfo -> {
+                _state.value =
+                    _state.value.copy(isShowInfo = intent.isShow, bottomSheetShown = intent.isShow)
+            }
             is Intent.AccelerometerData -> {
                 val sumValues = intent.values.sumModulo()
-
-                Log.d("ACCELEROMETER_VALUES", sumValues.toString())
                 if (sumValues > 40) {
                     shuffleCards()
                 }
             }
             Intent.TurnOffVibrate -> _state.value = _state.value.copy(isVibrate = false)
+            is Intent.SetAdStatus -> _state.value = _state.value.copy(isShowAd = intent.isShow)
         }
     }
 
@@ -228,7 +232,10 @@ class ViewModel(
     }
 
     private fun cardDescriptionClick(id: Int) {
-        _state.value = _state.value.copy(actualCardId = id, bottomSheetShown = true)
+        clickCounter++
+        val isShowAd = clickCounter % 10 == 0
+        _state.value =
+            _state.value.copy(actualCardId = id, bottomSheetShown = true, isShowAd = isShowAd)
     }
 
     private fun clearDescription() {

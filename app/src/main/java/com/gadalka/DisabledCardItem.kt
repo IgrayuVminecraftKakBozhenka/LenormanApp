@@ -36,7 +36,7 @@ fun DisabledCardItem(
 
         ) {
             Image(
-                painter = painterResource(id = R.drawable.ic_card_tshirt),
+                painter = painterResource(id = R.drawable.card_back),
                 contentDescription = null,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier

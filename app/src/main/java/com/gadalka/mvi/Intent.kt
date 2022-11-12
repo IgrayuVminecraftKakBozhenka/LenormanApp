@@ -8,4 +8,5 @@ sealed class Intent {
     class ShowInfo(val isShow: Boolean) : Intent()
     class AccelerometerData(val values: FloatArray) : Intent()
     object TurnOffVibrate : Intent()
+    class SetAdStatus(val isShow: Boolean) : Intent()
 }

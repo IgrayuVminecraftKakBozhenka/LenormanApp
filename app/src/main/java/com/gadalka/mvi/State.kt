@@ -11,5 +11,6 @@ data class State(
     val actualCardId: Int = -1,
     val bottomSheetShown: Boolean = false,
     val isShowInfo: Boolean = false,
-    val isVibrate: Boolean = false
+    val isVibrate: Boolean = false,
+    val isShowAd: Boolean = true
 )

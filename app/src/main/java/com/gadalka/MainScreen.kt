@@ -11,7 +11,6 @@ import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
-import android.util.Log
 import androidx.activity.compose.BackHandler
 import androidx.annotation.RequiresApi
 import androidx.compose.animation.Crossfade
@@ -81,7 +80,6 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
     val listener = remember {
         object : SensorEventListener {
             override fun onSensorChanged(p0: SensorEvent?) {
-               // Log.d("ACCELEROMETER_VALUES", "${p0?.values?.get(0)} ${p0?.values?.get(1)} ${p0?.values?.get(2)}")
                 performIntent(Intent.AccelerometerData(p0?.values ?: FloatArray(0)))
             }
 
@@ -134,6 +132,13 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
             sheetState = bottomSheetState,
             sheetShape = RoundedCornerShape(16.dp)
         ) {
+
+            if (state.isShowAd) {
+                AdScreen {
+                    performIntent(Intent.SetAdStatus(false))
+                }
+            }
+
             Column {
                 TopAppBar(backgroundColor = overlay_light) {
                     Crossfade(
@@ -234,6 +239,8 @@ fun MainScreen(state: State, performIntent: (Intent) -> Unit) {
                         modifier = Modifier.padding(start = 16.dp, end = 16.dp)
                     )
                 }
+
+                Banner()
             }
         }
     }
