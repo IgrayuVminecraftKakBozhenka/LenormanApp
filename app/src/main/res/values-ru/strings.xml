@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gadalka</string>
+    <string name="app_name">Fortune Teller</string>
     <string name="card_description">Описание карты</string>
     <string name="one_horseman">Всадник</string>
     <string name="two_clever">Клевер</string>

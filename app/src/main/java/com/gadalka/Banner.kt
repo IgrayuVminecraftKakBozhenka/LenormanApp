@@ -26,7 +26,7 @@ fun Banner() {
         }
 
         override fun onAdFailedToLoad(p0: AdRequestError) {
-            Log.d("YANDEX_ADS", "Failed ${p0.code} ${p0.description}")
+            Log.d("YANDEX_ADS", "Failed banner ${p0.code} ${p0.description}")
         }
 
         override fun onAdClicked() {
