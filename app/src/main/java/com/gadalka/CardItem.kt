@@ -12,18 +12,17 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.painter.Painter
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalConfiguration
-import androidx.compose.ui.platform.LocalView
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.gadalka.ui.theme.blue
 import com.gadalka.ui.theme.lightBlue
-import com.gadalka.ui.theme.white
 
 @Composable
 fun CardItem(
@@ -55,34 +54,37 @@ fun CardItem(
         )
     )
 
+    val rotation = remember { Animatable(initialValue = 180f) }
+    LaunchedEffect(id != -1) {
+        rotation.animateTo(
+            targetValue = if (id != -1) 0f else 180f,
+            animationSpec = spring(stiffness = Spring.StiffnessLow),
+        )
+    }
+
     Card(
         modifier = Modifier
             .height(cardHeight)
-            .width(cardWidth),
+            .width(cardWidth)
+            .graphicsLayer {
+                rotationX = -rotation.value
+            },
         shape = RoundedCornerShape(10.dp),
         elevation = 3.dp,
         border = BorderStroke(1.dp, Brush.horizontalGradient(colors = listOf(color, color2)))
     ) {
-        Crossfade(targetState = id != -1, animationSpec = tween(1000)) {
-            if (it) {
-                Image(
-                    painter = getImage(id = id),
-                    contentDescription = null,
-                    contentScale = ContentScale.Crop,
-                    modifier = Modifier
-                        .clickable { onClick(id) }
-                        .fillMaxSize()
-                )
-            } else {
-                Image(
-                    painter = painterResource(id = R.drawable.card_place_holder),
-                    contentDescription = null,
-                    contentScale = ContentScale.Crop,
-                    modifier = Modifier.fillMaxSize()
-                )
-            }
+
+        Crossfade(targetState = id) { id ->
+            Image(
+                painter = getImage(id = id),
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .clickable {
+                        if (id != -1) onClick(id)
+                    }
+                    .fillMaxSize()
+            )
         }
-
-
     }
 }

@@ -221,12 +221,17 @@ class ViewModel(
             _state.value = _state.value.copy(
                 allCards = (cards.shuffled() as ArrayList<CardModel>),
                 firstCard = CardModel(),
-                secondCard = CardModel(),
-                thirdCard = CardModel(),
                 offset = 1
             )
-
-            delay(500L)
+            delay(100L)
+            _state.value = _state.value.copy(
+                secondCard = CardModel()
+            )
+            delay(100L)
+            _state.value = _state.value.copy(
+                thirdCard = CardModel()
+            )
+            delay(100L)
             _state.value = _state.value.copy(offset = 0, isVibrate = true)
         }
     }

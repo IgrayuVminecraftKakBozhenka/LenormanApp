@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.text.style.TextAlign
@@ -104,7 +105,13 @@ fun DescriptionBottomSheet(
             }
         }
         Column(modifier = Modifier.verticalScroll(scrollState)) {
-            Box(modifier = Modifier.fillMaxWidth()) {
+            Box(modifier = Modifier
+                .fillMaxWidth()
+                .graphicsLayer {
+                    alpha = 1f - ((scrollState.value.toFloat() / scrollState.maxValue) * 1.5f)
+                    translationY = 0.5f * scrollState.value
+                }
+            ) {
                 Card(
                     modifier = Modifier
                         .padding(start = 16.dp, end = 16.dp, top = 16.dp)
@@ -136,6 +143,7 @@ fun DescriptionBottomSheet(
                 modifier = Modifier
                     .padding(16.dp)
                     .fillMaxWidth()
+                    .background(overlay_light)
             )
         }
     }
